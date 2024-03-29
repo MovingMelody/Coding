@@ -11,4 +11,7 @@ Practiced Problems List
 <!-- Strings  -->
 <details>
 <summary>Strings</summary>
+
+- https://leetcode.com/problems/valid-anagram/description/ ```Easy```
+- 
 </details>
