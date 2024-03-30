@@ -9,6 +9,12 @@ import (
 	"time"
 )
 
+/*
+   Link - https://leetcode.com/problems/rotate-array/description/
+   Topics - arrays, two-pointers
+   Solved ? ✅
+*/
+
 func main() {
 	fmt.Println("GO")
 	/*
@@ -54,7 +60,7 @@ func main() {
 
 }
 
-// first approach bruteforce
+// first approach bruteforce - rotate array by k times
 func rotate(nums []int, k int) {
 	len := len(nums)
 	lastElement := 0
