@@ -10,7 +10,7 @@ import (
 
 /*
 Link - https://leetcode.com/problems/valid-anagram/description/
-Topics - strings, sorting, hashing, hash table
+Topics - strings, sorting, hashing, hash-table
 Solved ? ✅ 
 */
 func main() {
@@ -43,7 +43,7 @@ func isAnagram(s string, t string) bool {
 	return true
 }
 
-// using extra space - array as hash table
+// using extra space - array as hash-table
 func isAnagram2(s string, t string) bool {
 	mp := make([]int, 26)
 
