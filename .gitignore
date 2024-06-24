@@ -1,1 +1,5 @@
 .vscode/
+*.class
+CS50/week1_c
+.DS_Store
+.idea/
