@@ -16,13 +16,21 @@
 <summary>Arrays</summary>
 
 - [ ] [Valid Mountain Array][def10] `Easy`
+
 - [ ] [167 Two Sum II - Input Array Is Sorted][def11] `Medium` `Two Pointers`
+
 - [ ] [Rotate Array][def6] `Medium` `Two Pointers`
+
 - [ ] ✨ [Product of Array Except Itself][def5] `Medium` `Prefix Sum` `Suffix Sum`
+
 - [ ] [Minimum Size Subarray Sum][def4] `Medium` `Two Pointers` `Sliding Window`
+
 - [ ] [LC 349. Intersection of Two Arrays][def3] `Easy`
+
 - [x] [Check If arrays is sorted & Rotated][def] `Easy`
+
 - [x] [Remove Duplicates From Sorted Array][def2] `Easy`
+
 - [ ] ✨[Move Zeroes][move_zeros] `Easy`
 </details>
 
@@ -31,6 +39,7 @@
 <summary>Strings</summary>
 
 - [ ] [Valid Anagram][def7] `Easy`
+
 </details>
 
 <!-- Recursion  -->
@@ -44,6 +53,8 @@
 <summary>HashTable</summary>
 
 - [ ] [✨ 1002 Find Common Characters][def8] `Easy` `Strings` `Hash-Table`
+- [ ] 
+
 - </details>
 
 [def]: https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/
