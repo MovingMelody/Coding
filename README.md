@@ -2,6 +2,9 @@
 
 `arrays`, `sorting`, `two-pointers`, `sliding-window`, `hashing`, `hash-table`, `kadens`
 
+🧬 → Algorithm
+💎 → Gem
+
 ### Topic-wise Important Problems
 
 <!-- Popular Algorithms  -->
@@ -18,12 +21,13 @@
 - [ ] [Valid Mountain Array][def10] `Easy`
 - [ ] [167 Two Sum II - Input Array Is Sorted][def11] `Medium` `Two Pointers`
 - [ ] [Rotate Array][def6] `Medium` `Two Pointers`
-- [ ] ✨ [Product of Array Except Itself][def5] `Medium` `Prefix Sum` `Suffix Sum`
+- [ ] 💎 [Product of Array Except Itself][def5] `Medium` `Prefix Sum` `Suffix Sum`
 - [ ] [Minimum Size Subarray Sum][def4] `Medium` `Two Pointers` `Sliding Window`
 - [ ] [LC 349. Intersection of Two Arrays][def3] `Easy`
 - [x] [Check If arrays is sorted & Rotated][def] `Easy`
 - [x] [Remove Duplicates From Sorted Array][def2] `Easy`
-- [ ] ✨[Move Zeroes][move_zeros] `Easy`
+- [ ] 💎 [Move Zeroes][move_zeros] `Easy`
+- [ ] 🧬 [Majority Element][def12] `Easy`
 </details>
 
 <!-- Strings  -->
@@ -58,3 +62,4 @@
 [def9]: LeetCode/Arrays/FindTheDuplicateNumber.java
 [def10]: https://leetcode.com/problems/valid-mountain-array/description/
 [def11]: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
+[def12]: LeetCode/Arrays/MajorityElement_169/MajorityElement.java
