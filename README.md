@@ -58,7 +58,7 @@
 <summary>Bit Manipulation</summary>
 
 - [ ] [✨ Missing Number][def13] `Easy` `Math`
-- [ ] 
+
 </details>
 
 [def]: https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/
@@ -74,4 +74,4 @@
 [def10]: https://leetcode.com/problems/valid-mountain-array/description/
 [def11]: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
 [def12]: LeetCode/Arrays/MajorityElement_169/MajorityElement.java
-[def13]: https://leetcode.com/problems/missing-number/description/
+[def13]: LeetCode/BitManipulation/MissingNumber_268
