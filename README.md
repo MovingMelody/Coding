@@ -28,6 +28,8 @@
 - [x] [Remove Duplicates From Sorted Array][def2] `Easy`
 - [ ] 💎 [Move Zeroes][move_zeros] `Easy`
 - [ ] 🧬 [Majority Element][def12] `Easy`
+
+
 </details>
 
 <!-- Strings  -->
@@ -48,7 +50,16 @@
 <summary>HashTable</summary>
 
 - [ ] [✨ 1002 Find Common Characters][def8] `Easy` `Strings` `Hash-Table`
-- </details>
+</details>
+
+
+<!-- Bit Manipulation  -->
+<details>
+<summary>Bit Manipulation</summary>
+
+- [ ] [✨ Missing Number][def13] `Easy` `Math`
+- [ ] 
+</details>
 
 [def]: https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/
 [def2]: https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
@@ -63,3 +74,4 @@
 [def10]: https://leetcode.com/problems/valid-mountain-array/description/
 [def11]: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
 [def12]: LeetCode/Arrays/MajorityElement_169/MajorityElement.java
+[def13]: https://leetcode.com/problems/missing-number/description/
