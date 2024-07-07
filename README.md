@@ -28,7 +28,6 @@
 - [ ] 💎 [Move Zeroes][move_zeros] `Easy`
 - [ ] 🧬 [Majority Element][def12] `Easy`
 
-
 </details>
 
 <!-- Strings  -->
@@ -43,7 +42,8 @@
 <summary>Two Pointers</summary>
 
 - [ ] [167 Two Sum II - Input Array Is Sorted][def11] `Medium`
-- [ ] [💎 125 Valid Pallindrome][def14] `Easy`
+- [] [💎 125 Valid Pallindrome][def14] `Easy`
+- [x] [💎 680 Valid Pallindrome II][def15] `Easy`
 
 </details>
 
@@ -59,7 +59,6 @@
 
 - [ ] [✨ 1002 Find Common Characters][def8] `Easy` `Strings` `Hash-Table`
 </details>
-
 
 <!-- Bit Manipulation  -->
 <details>
@@ -84,3 +83,4 @@
 [def12]: LeetCode/Arrays/MajorityElement_169/MajorityElement.java
 [def13]: LeetCode/BitManipulation/MissingNumber_268
 [def14]: LeetCode/Strings/125ValidPallindrome
+[def15]: LeetCode/TwoPointers/ValidPallindromeII_680
