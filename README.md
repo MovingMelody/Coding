@@ -19,7 +19,6 @@
 <summary>Arrays</summary>
 
 - [ ] [Valid Mountain Array][def10] `Easy`
-- [ ] [167 Two Sum II - Input Array Is Sorted][def11] `Medium` `Two Pointers`
 - [ ] [Rotate Array][def6] `Medium` `Two Pointers`
 - [ ] 💎 [Product of Array Except Itself][def5] `Medium` `Prefix Sum` `Suffix Sum`
 - [ ] [Minimum Size Subarray Sum][def4] `Medium` `Two Pointers` `Sliding Window`
@@ -37,6 +36,15 @@
 <summary>Strings</summary>
 
 - [ ] [Valid Anagram][def7] `Easy`
+</details>
+
+<!-- Two Pointers  -->
+<details>
+<summary>Two Pointers</summary>
+
+- [ ] [167 Two Sum II - Input Array Is Sorted][def11] `Medium`
+- [ ] [💎 125 Valid Pallindrome][def14] `Easy`
+
 </details>
 
 <!-- Recursion  -->
@@ -75,3 +83,4 @@
 [def11]: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
 [def12]: LeetCode/Arrays/MajorityElement_169/MajorityElement.java
 [def13]: LeetCode/BitManipulation/MissingNumber_268
+[def14]: LeetCode/Strings/125ValidPallindrome
