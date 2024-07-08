@@ -7,6 +7,8 @@ package ThreeSum_15;
 
 import java.util.*;
 
+// https://youtu.be/DhFh8Kw7ymk?si=4y_YnmeV9JzMDM7l
+
 class ThreeSum {
     public static void main(String[] args) {
         int[] nums = new int[] { -1, 0, 1, 2, -1, -4 };
