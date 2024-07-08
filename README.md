@@ -2,21 +2,20 @@
 
 `arrays`, `sorting`, `two-pointers`, `sliding-window`, `hashing`, `hash-table`, `kadens`
 
-🧬 → Algorithm
+🧬 → Algorithm Problem <br/>
 💎 → Gem
 
 ### Topic-wise Important Problems
 
 <!-- Popular Algorithms  -->
-<details>
-<summary>Popular Algorithms</summary>
+### Popular Algorithms
 
-- [ ] [✨ Find the Duplicate Number - Floyd's Cycle Detection - Tortoise & Hare][def9]
-- </details>
+- [ ] [🧬 💎  Find the Duplicate Number - Floyd's Cycle Detection Algo - Tortoise & Hare][def9]
+- [ ] [Linear Search - Searching Algorithm][def16]
+
 
 <!-- Arrays -->
-<details>
-<summary>Arrays</summary>
+### Arrays
 
 - [ ] [Valid Mountain Array][def10] `Easy`
 - [ ] [Rotate Array][def6] `Medium` `Two Pointers`
@@ -28,45 +27,40 @@
 - [ ] 💎 [Move Zeroes][move_zeros] `Easy`
 - [ ] 🧬 [Majority Element][def12] `Easy`
 
-</details>
 
 <!-- Strings  -->
-<details>
-<summary>Strings</summary>
+### Strings
 
 - [ ] [Valid Anagram][def7] `Easy`
-</details>
+
 
 <!-- Two Pointers  -->
-<details>
-<summary>Two Pointers</summary>
+### Two Pointers
 
 - [ ] [167 Two Sum II - Input Array Is Sorted][def11] `Medium`
-- [] [💎 125 Valid Pallindrome][def14] `Easy`
+- [ ] [💎 125 Valid Pallindrome][def14] `Easy`
 - [x] [💎 680 Valid Pallindrome II][def15] `Easy`
+- [ ] [💎 LC 13. 3Sum][def17] `Medium`
 
-</details>
 
 <!-- Recursion  -->
-<details>
-<summary>Recursion</summary>
+### Recursion
 - [ ]
-</details>
+
+
 
 <!-- HashTable  -->
-<details>
-<summary>HashTable</summary>
+### HashTable
 
 - [ ] [✨ 1002 Find Common Characters][def8] `Easy` `Strings` `Hash-Table`
-</details>
+
+
 
 <!-- Bit Manipulation  -->
-<details>
-<summary>Bit Manipulation</summary>
+### Bit Manipulation
 
 - [ ] [✨ Missing Number][def13] `Easy` `Math`
 
-</details>
 
 [def]: https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/
 [def2]: https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
@@ -84,3 +78,5 @@
 [def13]: LeetCode/BitManipulation/MissingNumber_268
 [def14]: LeetCode/Strings/125ValidPallindrome
 [def15]: LeetCode/TwoPointers/ValidPallindromeII_680
+[def16]: Algorithms/Searching/LinearSearch
+[def17]: LeetCode/Arrays/ThreeSum_15
