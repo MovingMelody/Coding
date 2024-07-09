@@ -26,6 +26,7 @@
 - [x] [Remove Duplicates From Sorted Array][def2] `Easy`
 - [ ] 💎 [Move Zeroes][move_zeros] `Easy`
 - [ ] 🧬 [Majority Element][def12] `Easy`
+- [x] [Number of Arithmetic Triplets][def18] `Easy`
 
 
 <!-- Strings  -->
@@ -80,3 +81,4 @@
 [def15]: LeetCode/TwoPointers/ValidPallindromeII_680
 [def16]: Algorithms/Searching/LinearSearch
 [def17]: LeetCode/Arrays/ThreeSum_15
+[def18]: LeetCode/Arrays/NumberOfArithmeticTriplets_2367
