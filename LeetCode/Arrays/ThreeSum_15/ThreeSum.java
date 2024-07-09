@@ -74,26 +74,26 @@ class ThreeSum {
     // triplets)
     private static List<List<Integer>> threeSumOptimal(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
-        Arrays.sort(nums);
+        Arrays.sort(nums); // O(n logn) for sorting
         int len = nums.length;
         for (int i = 0; i < len - 2; i++) {
             if (i > 0 && nums[i] == nums[i - 1])
                 continue;
             int l = i + 1, r = len - 1;
             while (l < r) {
-                int sum = nums[l] + nums[r];
-                if (sum + nums[i] == 0) {
+                int sum = nums[l] + nums[r] + nums[i];
+                if (sum == 0) {
                     res.add(new ArrayList<>(Arrays.asList(nums[i], nums[l], nums[r])));
+                    l++;
+                    r--;
 
-                    // increase left pointer until the next number is not same as nums[l]
-                    while (l < r && nums[l] == nums[l + 1])
+                    // move left and right pointers until the value is not same as prev
+                    while (l < r && nums[l] == nums[l - 1])
                         l++;
 
-                    // decrease right pointer until the next number is not same as nums[r]
-                    while (l < r && nums[r] == nums[r - 1])
+                    while (l < r && nums[r] == nums[r + 1])
                         r--;
-                }
-                if (sum + nums[i] > 0) {
+                } else if (sum > 0) {
                     r--;
                 } else {
                     l++;
