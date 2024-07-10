@@ -8,13 +8,15 @@
 ### Topic-wise Important Problems
 
 <!-- Popular Algorithms  -->
+
 ### Popular Algorithms
 
-- [ ] [🧬 💎  Find the Duplicate Number - Floyd's Cycle Detection Algo - Tortoise & Hare][def9]
-- [ ] [Linear Search - Searching Algorithm][def16]
-
+- [ ] [🧬 💎 Find the Duplicate Number - Floyd's Cycle Detection Algo - Tortoise & Hare][def9]
+- [ ] [Linear Search Algorithm + Recursion Version LS][def16]
+- [ ] [Binary Search Algorithm + Order-Agnostic BS][def19]
 
 <!-- Arrays -->
+
 ### Arrays
 
 - [ ] [Valid Mountain Array][def10] `Easy`
@@ -28,14 +30,14 @@
 - [ ] 🧬 [Majority Element][def12] `Easy`
 - [x] [Number of Arithmetic Triplets][def18] `Easy`
 
-
 <!-- Strings  -->
+
 ### Strings
 
 - [ ] [Valid Anagram][def7] `Easy`
 
-
 <!-- Two Pointers  -->
+
 ### Two Pointers
 
 - [ ] [167 Two Sum II - Input Array Is Sorted][def11] `Medium`
@@ -43,25 +45,23 @@
 - [x] [💎 680 Valid Pallindrome II][def15] `Easy`
 - [ ] [💎 LC 13. 3Sum][def17] `Medium`
 
-
 <!-- Recursion  -->
+
 ### Recursion
+
 - [ ]
 
-
-
 <!-- HashTable  -->
+
 ### HashTable
 
 - [ ] [✨ 1002 Find Common Characters][def8] `Easy` `Strings` `Hash-Table`
 
-
-
 <!-- Bit Manipulation  -->
+
 ### Bit Manipulation
 
 - [ ] [✨ Missing Number][def13] `Easy` `Math`
-
 
 [def]: https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/
 [def2]: https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
@@ -82,3 +82,4 @@
 [def16]: Algorithms/Searching/LinearSearch
 [def17]: LeetCode/Arrays/ThreeSum_15
 [def18]: LeetCode/Arrays/NumberOfArithmeticTriplets_2367
+[def19]: Algorithms/Searching/BinarySearch
