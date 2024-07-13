@@ -37,14 +37,13 @@
 
 - [ ] [Valid Anagram][def7] `Easy`
 
-
 <!-- Binary Search  -->
 
 ### Binary Search
 
 - [x] [Find Smallest letter greater than target][def21] `Easy`
-- [x] [First & Last position of element in sorted array][def22] `Medium`
-
+- [x] 💎 [First & Last position of element in sorted array][def22] `Medium`
+- [x] 💎 [852 Peak Index in a Mountain Array][def23]
 
 <!-- Two Pointers  -->
 
@@ -96,3 +95,4 @@
 [def20]: LeetCode/Arrays/RemoveDuplicatesFromSortedArrayII
 [def21]: https://leetcode.com/problems/find-smallest-letter-greater-than-target/
 [def22]: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/
+[def23]: LeetCode/Arrays/PeakIndexInaMountainArray
