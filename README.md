@@ -28,13 +28,23 @@
 - [x] [Remove Duplicates From Sorted Array][def2] `Easy`
 - [ ] 💎 [Move Zeroes][move_zeros] `Easy`
 - [ ] 🧬 [Majority Element][def12] `Easy`
-- [x] [Number of Arithmetic Triplets][def18] `Easy`
+- [x] 💎 [Number of Arithmetic Triplets][def18] `Easy`
+- [ ] 💎 [Remove Duplicates From Sorted Array II][def20] `Medium`
 
 <!-- Strings  -->
 
 ### Strings
 
 - [ ] [Valid Anagram][def7] `Easy`
+
+
+<!-- Binary Search  -->
+
+### Binary Search
+
+- [x] [Find Smallest letter greater than target][def21] `Easy`
+- [x] [First & Last position of element in sorted array][def22] `Medium`
+
 
 <!-- Two Pointers  -->
 
@@ -66,7 +76,7 @@
 [def]: https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/
 [def2]: https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
 [def3]: https://leetcode.com/problems/intersection-of-two-arrays/
-[move_zeros]: https://leetcode.com/problems/move-zeroes/description/
+[move_zeros]: LeetCode/Arrays/MoveZeros
 [def4]: https://leetcode.com/problems/minimum-size-subarray-sum/description/
 [def5]: https://leetcode.com/problems/product-of-array-except-self/description/
 [def6]: https://leetcode.com/problems/rotate-array/description/
@@ -83,3 +93,6 @@
 [def17]: LeetCode/Arrays/ThreeSum_15
 [def18]: LeetCode/Arrays/NumberOfArithmeticTriplets_2367
 [def19]: Algorithms/Searching/BinarySearch
+[def20]: LeetCode/Arrays/RemoveDuplicatesFromSortedArrayII
+[def21]: https://leetcode.com/problems/find-smallest-letter-greater-than-target/
+[def22]: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/
