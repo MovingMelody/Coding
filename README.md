@@ -42,6 +42,7 @@
 ### Binary Search
 
 - [x] [Find Smallest letter greater than target][def21] `Easy`
+- [x] [Search Insert Position][def25]
 - [x] 💎 [First & Last position of element in sorted array][def22] `Medium`
 - [x] 💎 [852 Peak Index in a Mountain Array][def23]
 - [x] 💎 [Find in Mountain Array][def24] `Hard`
@@ -98,3 +99,4 @@
 [def22]: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/
 [def23]: LeetCode/Arrays/PeakIndexInaMountainArray
 [def24]: https://leetcode.com/problems/find-in-mountain-array/description/
+[def25]: LeetCode/Arrays/35SearchInsertPosition
