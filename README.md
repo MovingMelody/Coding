@@ -42,7 +42,7 @@
 ### Binary Search
 
 - [x] [Find Smallest letter greater than target][def21] `Easy`
-- [x] [Search Insert Position][def25]
+- [x] [Search Insert Position][def25] (same as finding the ceil of a given target)
 - [x] 💎 [First & Last position of element in sorted array][def22] `Medium`
 - [x] 💎 [852 Peak Index in a Mountain Array][def23]
 - [x] 💎 [Find in Mountain Array][def24] `Hard`
