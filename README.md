@@ -41,11 +41,15 @@
 
 ### Binary Search
 
-- [x] [Find Smallest letter greater than target][def21] `Easy`
-- [x] [Search Insert Position][def25] (same as finding the ceil of a given target)
-- [x] 💎 [First & Last position of element in sorted array][def22] `Medium`
-- [x] 💎 [852 Peak Index in a Mountain Array][def23]
-- [x] 💎 [Find in Mountain Array][def24] `Hard`
+| Solved | Problem Details  | Description |
+| ------ | ---------------- | ----------- |
+| <ul><li> [x] </li></ul> | [Find Smallest letter greater than target][def21] `Easy` | Find the ceil of a given letter in the array
+| <ul><li> [x] </li></ul> | [Search Insert Position][def25] | Same as finding the Ceil of a given target |
+| <ul><li> [x] </li></ul> | 💎 [First & Last position of element in sorted array][def22] `Medium` |  |
+| <ul><li> [x] </li></ul> | 💎 [852 Peak Index in a Mountain Array][def23] |  |
+| <ul><li> [x] </li></ul> | 💎 [Find in Mountain Array][def24] `Hard` |  |
+| <ul><li> [ ] </li></ul> | [Search Element in Rotated Sorted Array][def26] | First, determine which part of the array is sorted (the part before the mid or the part after the mid). Then figure out where the target lies in the left part or right part of array |
+
 
 <!-- Two Pointers  -->
 
@@ -100,3 +104,4 @@
 [def23]: LeetCode/Arrays/PeakIndexInaMountainArray
 [def24]: https://leetcode.com/problems/find-in-mountain-array/description/
 [def25]: LeetCode/Arrays/35SearchInsertPosition
+[def26]: LeetCode/Arrays/SearchInRotatedSortedArray
