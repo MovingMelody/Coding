@@ -5,8 +5,6 @@
 🧬 → Algorithm Problem <br/>
 💎 → Gem
 
-### Topic-wise Important Problems
-
 <!-- Popular Algorithms  -->
 
 ### Popular Algorithms
@@ -35,8 +33,8 @@
 
 ### Strings
 
-| Solved                 | Problem Details              | Description |
-| ---------------------- | ---------------------------- | ----------- |
+| Solved                  | Problem Details              | Description |
+| ----------------------- | ---------------------------- | ----------- |
 | <ul><li> [ ] </li></ul> | [Valid Anagram][def7] `Easy` |             |
 
 <!-- Binary Search  -->
@@ -50,7 +48,8 @@
 | <ul><li> [x] </li></ul> | 💎 [First & Last position of element in sorted array][def22] `Medium` | Find the given target using normal Binary Search. once the target is found at mid, it could be the potential first or last index, but more target elements may exists before or after mid. so if we are finding the first index then set end pointer to mid - 1 or if it's last index, set start pointer to mid + 1 |
 | <ul><li> [x] </li></ul> | 💎 [852 Peak Index in a Mountain Array][def23]                        |                                                                                                                                                                                                                                                                                                                     |
 | <ul><li> [x] </li></ul> | 💎 [Find in Mountain Array][def24] `Hard`                             | Find the peak index first. Then apply order-agnostic binary search on both the arrays (before peak and after peak)                                                                                                                                                                                                  |
-| <ul><li> [ ] </li></ul> | [Search Element in Rotated Sorted Array][def26]                       | First, determine which part of the array is sorted (the part before the mid or the part after the mid). Then figure out where the target lies in the left part or right part of array                                                                                                                               |
+| <ul><li> [ ] </li></ul> | [33. Search Element in Rotated Sorted Array][def26]                   | First, determine which part of the array is sorted (the part before the mid or the part after the mid using condition `(nums[start] <= middle)` ). Then figure out where the target lies in the left part or right part of array                                                                                    |
+| <ul><li> [ ] </li></ul> | [81. Search Element in Rotated Sorted Array 2][def27]                 | Same as above problem. But one extra condition `if(middle == nums[start] && middle == nums[end])` will be added since duplicate elements are there `[1, 0, 1, 1, 1]`. In that condition we have to move start and end pointers as long as both the values are same.                                                 |
 
 <!-- Two Pointers  -->
 
@@ -106,3 +105,4 @@
 [def24]: https://leetcode.com/problems/find-in-mountain-array/description/
 [def25]: LeetCode/Arrays/35SearchInsertPosition
 [def26]: LeetCode/Arrays/SearchInRotatedSortedArray
+[def27]: LeetCode/Arrays/SearchInRotatedSortedArrayII
