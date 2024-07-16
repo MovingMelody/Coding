@@ -35,21 +35,22 @@
 
 ### Strings
 
-- [ ] [Valid Anagram][def7] `Easy`
+| Solved                 | Problem Details              | Description |
+| ---------------------- | ---------------------------- | ----------- |
+| <ul><li> [ ] </li></ul> | [Valid Anagram][def7] `Easy` |             |
 
 <!-- Binary Search  -->
 
 ### Binary Search
 
-| Solved | Problem Details  | Description |
-| ------ | ---------------- | ----------- |
-| <ul><li> [x] </li></ul> | [Find Smallest letter greater than target][def21] `Easy` | Find the ceil of a given letter in the array
-| <ul><li> [x] </li></ul> | [Search Insert Position][def25] | Same as finding the Ceil of a given target |
-| <ul><li> [x] </li></ul> | 💎 [First & Last position of element in sorted array][def22] `Medium` |  |
-| <ul><li> [x] </li></ul> | 💎 [852 Peak Index in a Mountain Array][def23] |  |
-| <ul><li> [x] </li></ul> | 💎 [Find in Mountain Array][def24] `Hard` |  |
-| <ul><li> [ ] </li></ul> | [Search Element in Rotated Sorted Array][def26] | First, determine which part of the array is sorted (the part before the mid or the part after the mid). Then figure out where the target lies in the left part or right part of array |
-
+| Solved                  | Problem Details                                                       | Description                                                                                                                                                                                                                                                                                                         |
+| ----------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <ul><li> [x] </li></ul> | [Find Smallest letter greater than target][def21] `Easy`              | Find the ceil of a given letter in the array                                                                                                                                                                                                                                                                        |
+| <ul><li> [x] </li></ul> | [Search Insert Position][def25]                                       | Same as finding the Ceil of a given target                                                                                                                                                                                                                                                                          |
+| <ul><li> [x] </li></ul> | 💎 [First & Last position of element in sorted array][def22] `Medium` | Find the given target using normal Binary Search. once the target is found at mid, it could be the potential first or last index, but more target elements may exists before or after mid. so if we are finding the first index then set end pointer to mid - 1 or if it's last index, set start pointer to mid + 1 |
+| <ul><li> [x] </li></ul> | 💎 [852 Peak Index in a Mountain Array][def23]                        |                                                                                                                                                                                                                                                                                                                     |
+| <ul><li> [x] </li></ul> | 💎 [Find in Mountain Array][def24] `Hard`                             | Find the peak index first. Then apply order-agnostic binary search on both the arrays (before peak and after peak)                                                                                                                                                                                                  |
+| <ul><li> [ ] </li></ul> | [Search Element in Rotated Sorted Array][def26]                       | First, determine which part of the array is sorted (the part before the mid or the part after the mid). Then figure out where the target lies in the left part or right part of array                                                                                                                               |
 
 <!-- Two Pointers  -->
 
