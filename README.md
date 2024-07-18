@@ -12,6 +12,7 @@
 - [ ] [🧬 💎 Find the Duplicate Number - Floyd's Cycle Detection Algo - Tortoise & Hare][def9]
 - [ ] [Linear Search Algorithm + Recursion Version LS][def16]
 - [ ] [Binary Search Algorithm + Order-Agnostic BS][def19]
+- [ ] [Bubble Sort Algorithm][def28]
 
 <!-- Arrays -->
 
@@ -25,7 +26,7 @@
 - [x] [Check If arrays is sorted & Rotated][def] `Easy`
 - [x] [Remove Duplicates From Sorted Array][def2] `Easy`
 - [ ] 💎 [Move Zeroes][move_zeros] `Easy`
-- [ ] 🧬 [Majority Element][def12] `Easy`
+- [ ] 🧬 [Majority Element - Moore's Voting Algorithm][def12] `Easy`
 - [x] 💎 [Number of Arithmetic Triplets][def18] `Easy`
 - [ ] 💎 [Remove Duplicates From Sorted Array II][def20] `Medium`
 
@@ -106,3 +107,4 @@
 [def25]: LeetCode/Arrays/35SearchInsertPosition
 [def26]: LeetCode/Arrays/SearchInRotatedSortedArray
 [def27]: LeetCode/Arrays/SearchInRotatedSortedArrayII
+[def28]: Algorithms/Sorting/BubbleSort.java
