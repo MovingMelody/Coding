@@ -9,10 +9,13 @@
 
 ### Popular Algorithms
 
-- [ ] [🧬 💎 Find the Duplicate Number - Floyd's Cycle Detection Algo - Tortoise & Hare][def9]
-- [ ] [Linear Search Algorithm + Recursion Version LS][def16]
-- [ ] [Binary Search Algorithm + Order-Agnostic BS][def19]
-- [ ] [Bubble Sort Algorithm][def28]
+| Algorithm                                                                                | Description                                                                                                                                                               |
+| ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [🧬 💎 Find the Duplicate Number - Floyd's Cycle Detection Algo - Tortoise & Hare][def9] |                                                                                                                                                                           |
+| [Linear Search Algorithm + Recursion Version LS][def16]                                  |                                                                                                                                                                           |
+| [Binary Search Algorithm + Order-Agnostic BS][def19]                                     |                                                                                                                                                                           |
+| [Bubble Sort Algorithm][def28]                                                           | Compare every two adjacent elements and swap them if the first is > than second element. Largest element will be kept at the end after each pass                          |
+| [Selection Sort Algorithm][def29]                        | Pick the ith smallest element in each iteration and put it at correct index. Idea is to find the min/max element in an unsorted array and then put it at correct position |
 
 <!-- Arrays -->
 
@@ -108,3 +111,4 @@
 [def26]: LeetCode/Arrays/SearchInRotatedSortedArray
 [def27]: LeetCode/Arrays/SearchInRotatedSortedArrayII
 [def28]: Algorithms/Sorting/BubbleSort.java
+[def29]: Algorithms/Sorting/SelectionSort.java

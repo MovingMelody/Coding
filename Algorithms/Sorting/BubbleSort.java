@@ -9,14 +9,14 @@ import java.util.Arrays;
 public class BubbleSort {
 
     public static void main(String[] args) {
-        int[] nums = new int[] { 88, 99, 88, 77, 6, 88, 34, 2, 1, 0 };
+        int[] nums = new int[]{88, 99, 88, 77, 6, 88, 34, 2, 1, 0, -90};
         bubbleSort(nums);
         System.out.println(Arrays.toString(nums));
     }
 
     /*
      * Space Complexity O(1)
-     * 
+     *
      * Time Complexity
      * Worst Case -> O(N^2)
      * Best Case -> O(N) when array is already sorted, we can early exit
@@ -38,7 +38,7 @@ public class BubbleSort {
             }
             if (!isSwapped) {
                 break; // early exit, if no swapping is done then it means that array is sorted. so we
-                       // can break loop
+                // can break loop
             }
         }
     }
