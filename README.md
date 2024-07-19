@@ -16,6 +16,7 @@
 | [Binary Search Algorithm + Order-Agnostic BS][def19]                                     |                                                                                                                                                                           |
 | [Bubble Sort Algorithm][def28]                                                           | Compare every two adjacent elements and swap them if the first is > than second element. Largest element will be kept at the end after each pass                          |
 | [Selection Sort Algorithm][def29]                                                        | Pick the ith smallest element in each iteration and put it at correct index. Idea is to find the min/max element in an unsorted array and then put it at correct position |
+| [Insertion Sort Algorithm][def31]                                                        |                                                                                                                                                                           |
 
 <!-- Arrays -->
 
@@ -74,8 +75,8 @@
 
 ### Dynamic Programming
 
-| Solved                  | Problem Details                            | Description                                                                             |
-| ----------------------- | ------------------------------------------ | --------------------------------------------------------------------------------------- |
+| Solved                  | Problem Details                                 | Description                                                                             |
+| ----------------------- | ----------------------------------------------- | --------------------------------------------------------------------------------------- |
 | <ul><li> [ ] </li></ul> | [121. Best Time to Buy and Sell a Stock][def30] | Keep track of min price before the ith price and subtract min price from current price. |
 
 <!-- HashTable  -->
@@ -121,3 +122,4 @@
 [def28]: Algorithms/Sorting/BubbleSort.java
 [def29]: Algorithms/Sorting/SelectionSort.java
 [def30]: LeetCode/Arrays/BestTimeToBuyAndSellStock/BestTimeToBuyAndSellStock.java
+[def31]: Algorithms/Sorting/InsertionSort.java
