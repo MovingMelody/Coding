@@ -83,10 +83,10 @@
 
 ### HashTable
 
-| Solved                 | Problem Details                                           | Description                                                                                                                                                                                                                                                                 |
-| ---------------------- | --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <ul><li> [] </li></ul> | [💎 1002. Find Common Characters][def8] `Easy`            |                                                                                                                                                                                                                                                                             |
-| <ul><li> [] </li></ul> | [202. Happy Number][def32] `Easy` `Floyd Cycle Detection` | Solution1: Store 'n' value in HashMap until (!set.contains(n)) and return true if n becomes 1. Solution2: Use Two-Pointers Fast & Slow and detect cycle using floyds cycle algo. Slow and Fast pointers will move until they become equal. return if slow == 1 or fast == 1 |
+| Solved                  | Problem Details                                           | Description                                                                                                                                                                                                                                                                 |
+| ----------------------- | --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <ul><li> [ ] </li></ul> | [💎 1002. Find Common Characters][def8] `Easy`            |                                                                                                                                                                                                                                                                             |
+| <ul><li> [ ] </li></ul> | [202. Happy Number][def32] `Easy` `Floyd Cycle Detection` | Solution1: Store 'n' value in HashMap until (!set.contains(n)) and return true if n becomes 1. Solution2: Use Two-Pointers Fast & Slow and detect cycle using floyds cycle algo. Slow and Fast pointers will move until they become equal. return if slow == 1 or fast == 1 |
 
 <!-- Bit Manipulation  -->
 
