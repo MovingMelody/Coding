@@ -67,11 +67,13 @@
 - [x] [💎 680 Valid Pallindrome II][def15] `Easy`
 - [ ] [💎 LC 13. 3Sum][def17] `Medium`
 
-<!-- Recursion  -->
+<!-- Stack  -->
 
-### Recursion
+### Stack
 
-- [ ]
+| Solved                  | Problem Details                                                                             | Description                                                                                                           |
+| ----------------------- | ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| <ul><li> [ ] </li></ul> | [Implement Stack Operations - Push, Pop, Peek, Increment(uptoIndex, incrementValue)][def35] | Implement the given stack operations in O(1) Time Complexity. Especially INC operation is bit interesting here. |
 
 <!-- Dynamic Programming  -->
 
@@ -132,3 +134,4 @@
 [def32]: LeetCode/HashTable/HappyNumber
 [def33]: LeetCode/HashTable/IsomorphicStrings
 [def34]: https://coherent-candle-2b4.notion.site/Java-Cheat-Sheet-8c0f17dceeea4c949c001802df290977?pvs=4
+[def35]: RandomProblems/StackGoogleQuestion.java
