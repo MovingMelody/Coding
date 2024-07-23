@@ -5,6 +5,8 @@
 🧬 → Algorithm Problem <br/>
 💎 → Gem
 
+[Java Cheat Sheet Notion Link ↗][def34]
+
 <!-- Popular Algorithms  -->
 
 ### Popular Algorithms
@@ -129,3 +131,4 @@
 [def31]: Algorithms/Sorting/InsertionSort.java
 [def32]: LeetCode/HashTable/HappyNumber
 [def33]: LeetCode/HashTable/IsomorphicStrings
+[def34]: https://coherent-candle-2b4.notion.site/Java-Cheat-Sheet-8c0f17dceeea4c949c001802df290977?pvs=4
