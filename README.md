@@ -93,6 +93,7 @@
 | <ul><li> [ ] </li></ul> | [202. Happy Number][def32] `Easy` `Floyd Cycle Detection` | Solution1: Store 'n' value in HashMap until (!set.contains(n)) and return true if n becomes 1. Solution2: Use Two-Pointers Fast & Slow and detect cycle using floyds cycle algo. Slow and Fast pointers will move until they become equal. return if slow == 1 or fast == 1 |
 | <ul><li> [ ] </li></ul> | [205. Isomorphic Strings][def33] `Easy`                   | Use HashMap and store the key value mappings, next time when key comes again in 's' then it's value should be equal to current char of 't'                                                                                                                                  |
 | <ul><li> [x] </li></ul> | [2090. Word Pattern][def36] `Easy`                        | Same as Isomorphic Strings Problem                                                                                                                                                                                                                                          |
+| <ul><li> [x] </li></ul> | [💎 2248. Intersection of Multiple Arrays][def37] `Easy`  | Combination of Sorting and Hashing. Super Interesting Problem.                                                                                                                                                                                                              |
 
 <!-- Bit Manipulation  -->
 
@@ -137,3 +138,4 @@
 [def34]: https://coherent-candle-2b4.notion.site/Java-Cheat-Sheet-8c0f17dceeea4c949c001802df290977?pvs=4
 [def35]: RandomProblems/StackGoogleQuestion.java
 [def36]: LeetCode/HashTable/WordPattern
+[def37]: LeetCode/HashTable/IntersectionOfMultipleArrays
