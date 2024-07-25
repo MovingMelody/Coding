@@ -94,7 +94,8 @@
 | <ul><li> [ ] </li></ul> | [205. Isomorphic Strings][def33] `Easy`                   | Use HashMap and store the key value mappings, next time when key comes again in 's' then it's value should be equal to current char of 't'                                                                                                                                  |
 | <ul><li> [x] </li></ul> | [2090. Word Pattern][def36] `Easy`                        | Same as Isomorphic Strings Problem                                                                                                                                                                                                                                          |
 | <ul><li> [x] </li></ul> | [💎 2248. Intersection of Multiple Arrays][def37] `Easy`  | Combination of Sorting and Hashing. Super Interesting Problem.                                                                                                                                                                                                              |
-| <ul><li> [ ] </li></ul> | [13. Roman to Integer][def38] `Easy`                      |                                                                                                                                                                                                                                                                             |
+| <ul><li> [ ] </li></ul> | [13. Roman to Integer][def38] `Medium`                    |                                                                                                                                                                                                                                                                             |
+| <ul><li> [ ] </li></ul> | [💎 12. Integer to Roman][def39] `Medium`                 |                                                                                                                                                                                                                                                                             |
 
 <!-- Bit Manipulation  -->
 
@@ -141,3 +142,4 @@
 [def36]: LeetCode/HashTable/WordPattern
 [def37]: LeetCode/HashTable/IntersectionOfMultipleArrays
 [def38]: LeetCode/HashTable/RomanToInteger
+[def39]: LeetCode/HashTable/IntegerToRoman
