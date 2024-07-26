@@ -96,6 +96,7 @@
 | <ul><li> [x] </li></ul> | [💎 2248. Intersection of Multiple Arrays][def37] `Easy`  | Combination of Sorting and Hashing. Super Interesting Problem.                                                                                                                                                                                                              |
 | <ul><li> [ ] </li></ul> | [13. Roman to Integer][def38] `Medium`                    |                                                                                                                                                                                                                                                                             |
 | <ul><li> [ ] </li></ul> | [💎 12. Integer to Roman][def39] `Medium`                 |                                                                                                                                                                                                                                                                             |
+| <ul><li> [x] </li></ul> | [💎 49. Group Anagrams][def40] `Medium`                   | Just one loop is enough. Sort each string and use that sorted one as key in hashmap and put the actual string as value. Anagrams will be grouped under each key                                                                                                             |
 
 <!-- Bit Manipulation  -->
 
@@ -143,3 +144,4 @@
 [def37]: LeetCode/HashTable/IntersectionOfMultipleArrays
 [def38]: LeetCode/HashTable/RomanToInteger
 [def39]: LeetCode/HashTable/IntegerToRoman
+[def40]: LeetCode/HashTable/GroupAnagrams
