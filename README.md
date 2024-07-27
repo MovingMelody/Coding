@@ -19,7 +19,7 @@
 | [Bubble Sort Algorithm][def28]                                                           | Compare every two adjacent elements and swap them if the first is > than second element. Largest element will be kept at the end after each pass                          |
 | [Selection Sort Algorithm][def29]                                                        | Pick the ith smallest element in each iteration and put it at correct index. Idea is to find the min/max element in an unsorted array and then put it at correct position |
 | [Insertion Sort Algorithm][def31]                                                        |                                                                                                                                                                           |
-| [What is Hashing Concept][def41]                                                                 |                                                                                                                                                                           |
+| [HashMaps & Hashing Concept][def41]                                                      |                                                                                                                                                                           |
 
 <!-- Arrays -->
 
@@ -98,6 +98,7 @@
 | <ul><li> [ ] </li></ul> | [13. Roman to Integer][def38] `Medium`                    |                                                                                                                                                                                                                                                                             |
 | <ul><li> [ ] </li></ul> | [💎 12. Integer to Roman][def39] `Medium`                 |                                                                                                                                                                                                                                                                             |
 | <ul><li> [x] </li></ul> | [💎 49. Group Anagrams][def40] `Medium`                   | Just one loop is enough. Sort each string and use that sorted one as key in hashmap and put the actual string as value. Anagrams will be grouped under each key                                                                                                             |
+| <ul><li> [ ] </li></ul> | [💎 128. Longest Consecutive Sequence][def42] `Medium`    | Brute force way is to sort the array and find the longest sequence. Optimized way: Put all the elements in a HashSet and loop through the array again check if (x-1) exists in set or not. If not the x might be the starting point of longest sequence.                    |
 
 <!-- Bit Manipulation  -->
 
@@ -146,4 +147,5 @@
 [def38]: LeetCode/HashTable/RomanToInteger
 [def39]: LeetCode/HashTable/IntegerToRoman
 [def40]: LeetCode/HashTable/GroupAnagrams
-[def41]: LeetCode/HashTable/WhatIsHashing.java
+[def41]: DataStructures/HashMap
+[def42]: LeetCode/HashTable/LongestConsecutiveSequence
