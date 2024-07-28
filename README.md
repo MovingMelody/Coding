@@ -99,6 +99,7 @@
 | <ul><li> [ ] </li></ul> | [💎 12. Integer to Roman][def39] `Medium`                 |                                                                                                                                                                                                                                                                             |
 | <ul><li> [x] </li></ul> | [💎 49. Group Anagrams][def40] `Medium`                   | Just one loop is enough. Sort each string and use that sorted one as key in hashmap and put the actual string as value. Anagrams will be grouped under each key                                                                                                             |
 | <ul><li> [ ] </li></ul> | [💎 128. Longest Consecutive Sequence][def42] `Medium`    | Brute force way is to sort the array and find the longest sequence. Optimized way: Put all the elements in a HashSet and loop through the array again check if (x-1) exists in set or not. If not the x might be the starting point of longest sequence.                    |
+| <ul><li> [ ] </li></ul> | [💎 Encode & Decode Strings][def43] `Medium`              |                                                                                                                                                                                                                                                                             |
 
 <!-- Bit Manipulation  -->
 
@@ -149,3 +150,4 @@
 [def40]: LeetCode/HashTable/GroupAnagrams
 [def41]: DataStructures/HashMap
 [def42]: LeetCode/HashTable/LongestConsecutiveSequence
+[def43]: LeetCode/HashTable/EncodeDecodeStrings
