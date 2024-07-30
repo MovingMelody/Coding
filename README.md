@@ -36,6 +36,7 @@
 - [ ] 🧬 [Majority Element - Moore's Voting Algorithm][def12] `Easy`
 - [x] 💎 [Number of Arithmetic Triplets][def18] `Easy`
 - [ ] 💎 [Remove Duplicates From Sorted Array II][def20] `Medium`
+- [ ] 💎💎 [ 442. Find all Duplicates in an Array][def49] `Medium`
 
 <!-- Strings  -->
 
@@ -67,6 +68,7 @@
 - [ ] [💎 125 Valid Pallindrome][def14] `Easy`
 - [x] [💎 680 Valid Pallindrome II][def15] `Easy`
 - [ ] [💎 LC 13. 3Sum][def17] `Medium`
+- [ ] [💎 88 Merge Sorted Array][def48] `Medium`
 
 <!-- Stack  -->
 
@@ -113,7 +115,7 @@ Problems that can be solved using cyclic sort technique
 
 - [Find the Duplicate Number - Using Cyclic Sort][def9]
 - [645. Set Mismatch][def44]
-- [442. Find all Duplicates in an Array][def45]
+- [442. Find all Duplicates in an Array][def49]
 - [448. Find All Numbers Disappeared in an Array][def46]
 - [268. Missing Number][def47]
 
@@ -165,3 +167,5 @@ Problems that can be solved using cyclic sort technique
 [def45]: https://leetcode.com/problems/find-all-duplicates-in-an-array/description/
 [def46]: https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/
 [def47]: https://leetcode.com/problems/missing-number/description/
+[def48]: LeetCode/TwoPointers/MergeSortedArray
+[def49]: LeetCode/Arrays/FindAllDuplicatesInArray
