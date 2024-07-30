@@ -1,6 +1,6 @@
 ### Tags/Topics
 
-`arrays`, `sorting`, `two-pointers`, `sliding-window`, `hashing`, `hash-table`, `kadens`
+`arrays`, `sorting`, `two-pointers`, `sliding-window`, `hashing`, `hash-table`, `kadens`, `cyclic-sort`
 
 🧬 → Algorithm Problem <br/>
 💎 → Gem
@@ -105,7 +105,17 @@
 
 ### Bit Manipulation
 
-- [ ] [✨ Missing Number][def13] `Easy` `Math`
+- [ ] [✨ Missing Number][def13] `Easy` `Math` `cyclic-sort`
+
+### Cyclic Sort
+
+Problems that can be solved using cyclic sort technique
+
+- [Find the Duplicate Number - Using Cyclic Sort][def9]
+- [645. Set Mismatch][def44]
+- [442. Find all Duplicates in an Array][def45]
+- [448. Find All Numbers Disappeared in an Array][def46]
+- [268. Missing Number][def47]
 
 [def]: https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/
 [def2]: https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
@@ -151,3 +161,7 @@
 [def41]: DataStructures/HashMap
 [def42]: LeetCode/HashTable/LongestConsecutiveSequence
 [def43]: LeetCode/HashTable/EncodeDecodeStrings
+[def44]: https://leetcode.com/problems/set-mismatch/
+[def45]: https://leetcode.com/problems/find-all-duplicates-in-an-array/description/
+[def46]: https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/
+[def47]: https://leetcode.com/problems/missing-number/description/
