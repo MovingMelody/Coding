@@ -49,9 +49,10 @@
 
 ### Strings
 
-| Solved                  | Problem Details              | Description |
-| ----------------------- | ---------------------------- | ----------- |
-| <ul><li> [ ] </li></ul> | [Valid Anagram][def7] `Easy` |             |
+| Solved                  | Problem Details                                                                  | Description                                                                                                                                                                     |
+| ----------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <ul><li> [ ] </li></ul> | [Valid Anagram][def7] `Easy`                                                     |                                                                                                                                                                                 |
+| <ul><li> [x] </li></ul> | [796. Rotate String - Find if s can become g after some rotations][def56] `Easy` | BruteForce: return (s+s).contains(g). Optimal: Get the starting index (s.char(i) == g.charAt(i)) and check if the strings are equal. Use (i%len) if pointers goes out of index. |
 
 <!-- Binary Search  -->
 
@@ -182,3 +183,4 @@ Problems that can be solved using cyclic sort technique
 [def53]: OOPS_JAVA/StringsIntro.java
 [def54]: OOPS_JAVA/StringsIntro.java
 [def55]: LeetCode/Arrays/FirstMissingPositive
+[def56]: https://leetcode.com/problems/rotate-string/description/
