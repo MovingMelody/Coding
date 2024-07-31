@@ -5,7 +5,13 @@
 🧬 → Algorithm Problem <br/>
 💎 → Gem
 
-[Java Cheat Sheet Notion Link ↗][def34]
+### Java Concepts
+
+- [Java Cheat Sheet Notion Link ↗][def34]
+- [Var Args][def51]
+- [Loops & Conditions][def52]
+- [Strings & StringBuilder][def53]
+- [Boxing, Unboxing, Auto-boxing][def54]
 
 <!-- Popular Algorithms  -->
 
@@ -37,6 +43,7 @@
 - [x] 💎 [Number of Arithmetic Triplets][def18] `Easy`
 - [ ] 💎 [Remove Duplicates From Sorted Array II][def20] `Medium`
 - [ ] 💎💎 [ 442. Find all Duplicates in an Array][def49] `Medium`
+- [ ] 💎 [41. First Missing Positive][def55] `Hard`
 
 <!-- Strings  -->
 
@@ -169,3 +176,9 @@ Problems that can be solved using cyclic sort technique
 [def47]: https://leetcode.com/problems/missing-number/description/
 [def48]: LeetCode/TwoPointers/MergeSortedArray
 [def49]: LeetCode/Arrays/FindAllDuplicatesInArray
+[def50]: DataStructures/Strings/StringsIntro.java
+[def51]: OOPS_JAVA/VarArgs.java
+[def52]: OOPS_JAVA/LoopsAndConditions.java
+[def53]: OOPS_JAVA/StringsIntro.java
+[def54]: OOPS_JAVA/StringsIntro.java
+[def55]: LeetCode/Arrays/FirstMissingPositive
