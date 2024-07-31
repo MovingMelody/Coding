@@ -5,6 +5,7 @@
 */
 
 public class Primitives {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         System.out.println("Primitive Data types in Java");
         // Primitive Data Types

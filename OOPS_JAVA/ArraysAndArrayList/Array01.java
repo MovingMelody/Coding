@@ -1,10 +1,11 @@
 package ArraysAndArrayList;
 
-import java.awt.event.WindowStateListener;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
 public class Array01 {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         System.out.println("Arrays in Java - Non Primitive Data Types (Reference Types)");
         // In Java, reference data types are any types that refer to objects
@@ -70,5 +71,6 @@ public class Array01 {
         for (String[] eachArray : gradesOfStudents) {
             System.out.println(Arrays.toString(eachArray));
         }
+        sc.close();
     }
 }

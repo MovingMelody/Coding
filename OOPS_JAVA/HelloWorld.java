@@ -7,6 +7,7 @@ import java.util.Scanner;
  * @author Sai Sumanth
  */
 public class HelloWorld {
+    @SuppressWarnings("null")
     public static void main(String[] args) {
         System.out.println("Command Line Args: " + Arrays.toString(args));
         System.out.println("Hello World");
@@ -16,7 +17,6 @@ public class HelloWorld {
         int dataFromUser = sc.nextInt();
         System.out.println(dataFromUser);
         sc.nextLine();
-
 
         System.out.print("Enter some string value : ");
         String line = sc.nextLine();
@@ -36,10 +36,12 @@ public class HelloWorld {
 
         String refString = null;
         System.out.println(refString.length()); // NullPointerException
+        sc.close();
     }
 
     public static boolean isPrime(int n) {
-        if (n <= 1) return false;
+        if (n <= 1)
+            return false;
 
         int i = 2;
         while (i * i <= n) {

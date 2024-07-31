@@ -6,6 +6,7 @@ import java.util.Scanner;
  * @author Sai Sumanth
  */
 public class TypeCasting {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         System.out.println("Type Conversion/Casting in Java");
         Scanner sc = new Scanner(System.in);
@@ -20,7 +21,7 @@ public class TypeCasting {
 
         int num1 = 30;
         float num2 = num1; // automatic implicit type conversion
-//        int num3  = num2; // automatic type conversion of float to int is not possible
+        // int num3 = num2; // automatic type conversion of float to int is not possible
         int num3 = (int) num2; // we've to do it explicitly. Narrow Type Casting (big to small)
 
         // important scenario
@@ -40,7 +41,6 @@ public class TypeCasting {
         int intChar = 'a'; // 97
         int intChar2 = 'A'; // 65 ASCII value
 
-
         byte bb = 42;
         char cc = 'a';
         short ss = 1024;
@@ -49,7 +49,7 @@ public class TypeCasting {
         double dd = 0.1234;
         double result = (ff * bb) + (ii / cc) + (dd * ss); // (float) + (int) + (double) = overall result in double
         System.out.println((ff * bb) + " " + (ii / cc) + " " + (dd * ss));
-        System.out.println("result: " +result);
+        System.out.println("result: " + result);
         sc.close();
     }
 }
