@@ -26,6 +26,7 @@
 | [Selection Sort Algorithm][def29]                                                        | Pick the ith smallest element in each iteration and put it at correct index. Idea is to find the min/max element in an unsorted array and then put it at correct position |
 | [Insertion Sort Algorithm][def31]                                                        |                                                                                                                                                                           |
 | [HashMaps & Hashing Concept][def41]                                                      |                                                                                                                                                                           |
+| [Recursion Concept][def57]                                                               | Fibonacci, Pow(x,n), Binary Search Using Recursion                                                                                                                        |
 
 <!-- Arrays -->
 
@@ -53,6 +54,7 @@
 | ----------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <ul><li> [ ] </li></ul> | [Valid Anagram][def7] `Easy`                                                     |                                                                                                                                                                                 |
 | <ul><li> [x] </li></ul> | [796. Rotate String - Find if s can become g after some rotations][def56] `Easy` | BruteForce: return (s+s).contains(g). Optimal: Get the starting index (s.char(i) == g.charAt(i)) and check if the strings are equal. Use (i%len) if pointers goes out of index. |
+| <ul><li> [x] </li></ul> | [Reverse words in a String][def58] `Medium`                                      |                                                                                                                                                                                 |
 
 <!-- Binary Search  -->
 
@@ -184,3 +186,5 @@ Problems that can be solved using cyclic sort technique
 [def54]: OOPS_JAVA/StringsIntro.java
 [def55]: LeetCode/Arrays/FirstMissingPositive
 [def56]: https://leetcode.com/problems/rotate-string/description/
+[def57]: Algorithms/Recursion
+[def58]: LeetCode/TwoPointers/ReverseWordsInString

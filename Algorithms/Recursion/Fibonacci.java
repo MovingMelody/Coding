@@ -7,8 +7,9 @@
 public class Fibonacci {
     public static void main(String[] args) {
         System.out.println("Fibonacci Number using Recursion");
-        int res = fibo(9);
-        System.out.println(9 + "th Fibonacci Number is : " + res);
+        int n = 40;
+        int res = fibo(n);
+        System.out.println(n + "th Fibonacci Number is : " + res);
     }
 
     static int fibo(int n) {
