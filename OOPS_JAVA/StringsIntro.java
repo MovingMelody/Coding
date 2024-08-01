@@ -4,6 +4,7 @@
  * @author Sai Sumanth
  */
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class StringsIntro {
@@ -24,6 +25,14 @@ public class StringsIntro {
         areEqual = newCat.equals(newCat2); // now True
         System.out.println("when compared two string objects with equals method: " + areEqual);
         System.out.println(dogSays);
+
+        System.out.println('a' + 'b'); // 195 (ASCII)
+        System.out.println("a" + 'b'); // ab
+        System.out.println("a" + 6); // a6
+        System.out.println('a' + 6); // 103
+        System.out.println((char) ('a' + 6)); // g
+
+        System.out.println("Meow" + new ArrayList<>()); // Meow[]
 
         // Double num = new Double(34); // deprecated
         /*
@@ -46,12 +55,31 @@ public class StringsIntro {
         // Format Specifier - %s in printf
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter Your name: ");
-        name = sc.nextLine();
+        name = "sc.nextLine()";
         System.out.print("What do you love: ");
-        String heLoves = sc.nextLine();
+        String heLoves = "sc.nextLine()";
         System.out.printf("Name is %s and He love %s\n", name, heLoves);
         sc.close();
 
-        System.out.println("a" + 6);
+        /*
+         * Performance & StringBuilder
+         */
+        
+        StringBuilder sb = new StringBuilder();
+        for(int i = 0;i<26;i++){
+            sb.append((char)('a' + i));
+        }
+        System.out.println(sb);
+        sb.deleteCharAt(0);
+        System.out.println(sb);
+        sb.insert(0, 'a');
+        System.out.println(sb);
+        sb.reverse();
+        System.out.println(sb.toString().toUpperCase());
+
+        // Loop through string
+        for(char ch : sb.toString().toCharArray()){
+            System.out.print(ch + " ");
+        }
     }
 }
