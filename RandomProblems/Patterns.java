@@ -1,5 +1,17 @@
+
+/*
+* Created on 01 Aug 2024
+* 
+* @author Sai Sumanth
+*/
 import java.util.Scanner;
 
+/* 
+ * Steps to Solve Pattern Problems
+ * 1. Run the outer loop for no. of lines (Rows)
+ * 2. For Inner Loop, focus on the columns & connect them somehow to the Rows
+ * 3. Observe if there's any symmetry (optional - only for few patterns)
+ */
 class Patterns {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -198,5 +210,24 @@ class Patterns {
     }
 
     private static void printButterFly(int n) {
+        System.out.println("\n------- Butterfly Pattern --------\n");
+
+        for (int i = 1; i < n * 2; i++) {
+            int stars = i <= n ? i : 2 * n - i;
+
+            int spaces = i <= n ? (2 * (n - i)) : (n - stars) * 2;
+
+            for (int st = 1; st <= stars; st++) {
+                System.out.print("* ");
+            }
+
+            for (int sp = 1; sp <= spaces; sp++) {
+                System.out.print("  ");
+            }
+            for (int st = 1; st <= stars; st++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
     }
 }
