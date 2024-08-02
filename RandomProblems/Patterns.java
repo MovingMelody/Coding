@@ -32,6 +32,10 @@ class Patterns {
 
         printAlphaHill(n);
 
+        printDiamondBox(n);
+
+        printButterFly(n);
+
     }
 
     private static void printAlphaHill(int n) {
@@ -153,6 +157,46 @@ class Patterns {
             System.out.println();
         }
     }
-}
 
-// 19, 20, 17, 12
+    private static void printDiamondBox(int n) {
+        System.out.println("\n---------- Diamond Box --------");
+        // first half
+        for (int i = 1; i <= n; i++) {
+            /// stars
+            for (int s = 1; s <= n - i + 1; s++) {
+                System.out.print("* ");
+            }
+            // spaces
+            for (int sp = 1; sp <= (i - 1) * 2; sp++) {
+                System.out.print("  ");
+            }
+
+            // stars
+            for (int s = 1; s <= n - i + 1; s++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+
+        // next half
+        for (int i = 1; i <= n; i++) {
+            /// stars
+            for (int s = 1; s <= i; s++) {
+                System.out.print("* ");
+            }
+            // spaces
+            for (int sp = 1; sp <= (n - i) * 2; sp++) {
+                System.out.print("  ");
+            }
+
+            // stars
+            for (int s = 1; s <= i; s++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+
+    private static void printButterFly(int n) {
+    }
+}

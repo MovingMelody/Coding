@@ -5,13 +5,14 @@
 🧬 → Algorithm Problem <br/>
 💎 → Gem
 
-### Java Concepts
+### Basic Concepts
 
 - [Java Cheat Sheet Notion Link ↗][def34]
-- [Var Args][def51]
+- [Var Args - Java][def51]
 - [Loops & Conditions][def52]
-- [Strings & StringBuilder][def53]
-- [Boxing, Unboxing, Auto-boxing][def54]
+- [Strings & StringBuilder - Java][def53]
+- [Boxing, Unboxing, Auto-boxing - Java][def54]
+- [Patterns][def59]
 
 <!-- Popular Algorithms  -->
 
@@ -188,3 +189,4 @@ Problems that can be solved using cyclic sort technique
 [def56]: https://leetcode.com/problems/rotate-string/description/
 [def57]: Algorithms/Recursion
 [def58]: LeetCode/TwoPointers/ReverseWordsInString
+[def59]: RandomProblems/Patterns.java
