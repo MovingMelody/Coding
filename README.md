@@ -27,7 +27,6 @@
 | [Selection Sort Algorithm][def29]                                                        | Pick the ith smallest element in each iteration and put it at correct index. Idea is to find the min/max element in an unsorted array and then put it at correct position |
 | [Insertion Sort Algorithm][def31]                                                        |                                                                                                                                                                           |
 | [HashMaps & Hashing Concept][def41]                                                      |                                                                                                                                                                           |
-| [Recursion Concept][def57]                                                               | Fibonacci, Pow(x,n), Binary Search Using Recursion                                                                                                                        |
 
 <!-- Arrays -->
 
@@ -80,6 +79,15 @@
 - [x] [💎 680 Valid Pallindrome II][def15] `Easy`
 - [ ] [💎 LC 13. 3Sum][def17] `Medium`
 - [ ] [💎 88 Merge Sorted Array][def48] `Medium`
+
+<!-- Recursion  -->
+
+### Recursion
+
+| Solved                  | Problem Details               | Description                                                    |
+| ----------------------- | ----------------------------- | -------------------------------------------------------------- |
+| <ul><li> [ ] </li></ul> | [💎 Recursion Concept][def57] | Fibonacci, Pow(x,n), Binary Search Using Recursion             |
+| <ul><li> [ ] </li></ul> | [💎 50. Pow(x,n)][def60]      | Naive Recursive approach to Recursive calls Optimized approach |
 
 <!-- Stack  -->
 
@@ -190,3 +198,4 @@ Problems that can be solved using cyclic sort technique
 [def57]: Algorithms/Recursion
 [def58]: LeetCode/TwoPointers/ReverseWordsInString
 [def59]: RandomProblems/Patterns.java
+[def60]: Algorithms/Recursion/Pow.java
