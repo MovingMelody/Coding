@@ -3,10 +3,19 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/DSA/DataStructures" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DSA/DataStructures/Arrays" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LeetCode/Arrays" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LeetCode/HashTable" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/OOPS_JAVA" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RandomProblems" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DataStructures/Arrays" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DataStructures/Strings" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Algorithms/Math" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Algorithms/Sorting" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LeetCode/BitManipulation" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Algorithms/Recursion" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LeetCode/TwoPointers" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
