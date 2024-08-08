@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /*
 * Created on 02 Aug 2024
 * 
@@ -10,12 +12,17 @@ public class EvenOrOdd {
          * 
          */
         int number = 9;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number to check whether ever or odd: ");
+        number = sc.nextInt();
 
         if ((number & 1) == 0) {
             System.out.println(number + " is even.");
         } else {
             System.out.println(number + " is odd.");
         }
+
+        byte num = 127;
 
     }
 }
