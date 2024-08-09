@@ -130,11 +130,12 @@
 | ----------------------- | --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
 | <ul><li> [x] </li></ul> | [✨ Bit Manipulation Basics][def63]                       | Find the ith Bit(set or not); Swap Two Numbers using XOR; Set the ith Bit of a Number; Clear the ith Bit; Count the set bits      |
 | <ul><li> [x] </li></ul> | [Binary to Decimal][def62]                                |                                                                                                                                   |
-| <ul><li> [x] </li></ul> | [✨ Missing Number][def13] `Easy` `Math`                  |                                                                                                                                   |
+| <ul><li> [x] </li></ul> | [✨ Missing Number][def13] `Easy` `Bit`                   |                                                                                                                                   |
 | <ul><li> [x] </li></ul> | [389. Find the Difference][def61] `Easy`                  |                                                                                                                                   |
-| <ul><li> [x] </li></ul> | [231. Is Power of 2][def64] `Easy`                        |                                                                                                                                   |
+| <ul><li> [x] </li></ul> | [231. Is Power of 2][def64] `Easy` `Bit`                  |                                                                                                                                   |
 | <ul><li> [x] </li></ul> | [2220. Minimum Bit Flips to Convert Number][def65] `Easy` | we have to flip the bits if they are not same. so xor will be 1 if the two bits are different. so Integer.countBits(start ^ goal) |
-| <ul><li> [x] </li></ul> | [78. Subsets][def66] `Medium`                             | Use binary numbers as marking and pick the elements from given array when the bit in each number is 1                             |
+| <ul><li> [x] </li></ul> | [78. Subsets][def66] `Medium` `Bit`                       | Use binary numbers as marking and pick the elements from given array when the bit in each number is 1                             |
+| <ul><li> [x] </li></ul> | [136. Single Number][def67] `Easy` `Bit`                  | Since every number is repeated twice except one. perform xor of all the numbers. Same numbers xor results in zero                 |
 
 <!-- Cyclic Sort  -->
 
@@ -215,3 +216,4 @@ Problems that can be solved using cyclic sort technique
 [def64]: https://leetcode.com/problems/power-of-two/description/
 [def65]: LeetCode/BitManipulation/MinBitFlipsToConvert
 [def66]: LeetCode/BitManipulation/SubSets
+[def67]: https://leetcode.com/problems/single-number/
