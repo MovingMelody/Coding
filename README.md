@@ -126,13 +126,14 @@
 
 ### Maths & Bit Manipulation
 
-| Solved                  | Problem Details                          | Description                                                                                                                  |
-| ----------------------- | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| <ul><li> [x] </li></ul> | [✨ Bit Manipulation Basics][def63]      | Find the ith Bit(set or not); Swap Two Numbers using XOR; Set the ith Bit of a Number; Clear the ith Bit; Count the set bits |
-| <ul><li> [x] </li></ul> | [Binary to Decimal][def62]               |                                                                                                                              |
-| <ul><li> [x] </li></ul> | [✨ Missing Number][def13] `Easy` `Math` |                                                                                                                              |
-| <ul><li> [x] </li></ul> | [389. Find the Difference][def61] `Easy` |                                                                                                                              |
-| <ul><li> [x] </li></ul> | [231. Is Power of 2][def64] `Easy`       |                                                                                                                              |
+| Solved                  | Problem Details                                           | Description                                                                                                                       |
+| ----------------------- | --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| <ul><li> [x] </li></ul> | [✨ Bit Manipulation Basics][def63]                       | Find the ith Bit(set or not); Swap Two Numbers using XOR; Set the ith Bit of a Number; Clear the ith Bit; Count the set bits      |
+| <ul><li> [x] </li></ul> | [Binary to Decimal][def62]                                |                                                                                                                                   |
+| <ul><li> [x] </li></ul> | [✨ Missing Number][def13] `Easy` `Math`                  |                                                                                                                                   |
+| <ul><li> [x] </li></ul> | [389. Find the Difference][def61] `Easy`                  |                                                                                                                                   |
+| <ul><li> [x] </li></ul> | [231. Is Power of 2][def64] `Easy`                        |                                                                                                                                   |
+| <ul><li> [x] </li></ul> | [2220. Minimum Bit Flips to Convert Number][def65] `Easy` | we have to flip the bits if they are not same. so xor will be 1 if the two bits are different. so Integer.countBits(start ^ goal) |
 
 <!-- Cyclic Sort  -->
 
@@ -211,3 +212,4 @@ Problems that can be solved using cyclic sort technique
 [def62]: Algorithms/Maths/BinaryToDecimal.java
 [def63]: Algorithms/Maths/BitManipulationBasics.java
 [def64]: https://leetcode.com/problems/power-of-two/description/
+[def65]: LeetCode/BitManipulation/MinBitFlipsToConvert
