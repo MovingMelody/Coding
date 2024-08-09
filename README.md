@@ -134,6 +134,7 @@
 | <ul><li> [x] </li></ul> | [389. Find the Difference][def61] `Easy`                  |                                                                                                                                   |
 | <ul><li> [x] </li></ul> | [231. Is Power of 2][def64] `Easy`                        |                                                                                                                                   |
 | <ul><li> [x] </li></ul> | [2220. Minimum Bit Flips to Convert Number][def65] `Easy` | we have to flip the bits if they are not same. so xor will be 1 if the two bits are different. so Integer.countBits(start ^ goal) |
+| <ul><li> [x] </li></ul> | [78. Subsets][def66] `Medium`                             | Use binary numbers as marking and pick the elements from given array when the bit in each number is 1                             |
 
 <!-- Cyclic Sort  -->
 
@@ -213,3 +214,4 @@ Problems that can be solved using cyclic sort technique
 [def63]: Algorithms/Maths/BitManipulationBasics.java
 [def64]: https://leetcode.com/problems/power-of-two/description/
 [def65]: LeetCode/BitManipulation/MinBitFlipsToConvert
+[def66]: LeetCode/BitManipulation/SubSets
