@@ -23,6 +23,8 @@ public class EvenOrOdd {
         }
 
         byte num = 127;
+        System.out.println(num);
 
+        sc.close();
     }
 }

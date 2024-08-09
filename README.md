@@ -122,11 +122,19 @@
 | <ul><li> [ ] </li></ul> | [💎 128. Longest Consecutive Sequence][def42] `Medium`    | Brute force way is to sort the array and find the longest sequence. Optimized way: Put all the elements in a HashSet and loop through the array again check if (x-1) exists in set or not. If not the x might be the starting point of longest sequence.                    |
 | <ul><li> [ ] </li></ul> | [💎 Encode & Decode Strings][def43] `Medium`              |                                                                                                                                                                                                                                                                             |
 
-<!-- Bit Manipulation  -->
+<!-- Maths & Bit Manipulation  -->
 
-### Bit Manipulation
+### Maths & Bit Manipulation
 
-- [ ] [✨ Missing Number][def13] `Easy` `Math` `cyclic-sort`
+| Solved                  | Problem Details                          | Description                                                                                                                  |
+| ----------------------- | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| <ul><li> [x] </li></ul> | [✨ Bit Manipulation Basics][def63]      | Find the ith Bit(set or not); Swap Two Numbers using XOR; Set the ith Bit of a Number; Clear the ith Bit; Count the set bits |
+| <ul><li> [x] </li></ul> | [Binary to Decimal][def62]               |                                                                                                                              |
+| <ul><li> [x] </li></ul> | [✨ Missing Number][def13] `Easy` `Math` |                                                                                                                              |
+| <ul><li> [x] </li></ul> | [389. Find the Difference][def61] `Easy` |                                                                                                                              |
+| <ul><li> [x] </li></ul> | [231. Is Power of 2][def64] `Easy`       |                                                                                                                              |
+
+<!-- Cyclic Sort  -->
 
 ### Cyclic Sort
 
@@ -199,3 +207,7 @@ Problems that can be solved using cyclic sort technique
 [def58]: LeetCode/TwoPointers/ReverseWordsInString
 [def59]: RandomProblems/Patterns.java
 [def60]: Algorithms/Recursion/Pow.java
+[def61]: https://leetcode.com/problems/find-the-difference/description/
+[def62]: Algorithms/Maths/BinaryToDecimal.java
+[def63]: Algorithms/Maths/BitManipulationBasics.java
+[def64]: https://leetcode.com/problems/power-of-two/description/
