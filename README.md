@@ -129,14 +129,15 @@
 | Solved                  | Problem Details                                           | Description                                                                                                                                                                         |
 | ----------------------- | --------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <ul><li> [x] </li></ul> | [✨ Bit Manipulation Basics][def63]                       | Find the ith Bit(set or not); Swap Two Numbers using XOR; Set the ith Bit of a Number; Clear the ith Bit; Count the set bits                                                        |
+| <ul><li> [x] </li></ul> | [67. Add Binary][def69]                                   | Add two given binary numbers using math.                                                                                                                                             |
 | <ul><li> [x] </li></ul> | [Binary to Decimal][def62]                                |                                                                                                                                                                                     |
 | <ul><li> [x] </li></ul> | [✨ Missing Number][def13] `Easy`                         |                                                                                                                                                                                     |
 | <ul><li> [x] </li></ul> | [389. Find the Difference][def61] `Easy`                  |                                                                                                                                                                                     |
-| <ul><li> [x] </li></ul> | [231. Is Power of 2][def64] `Easy`                        |                                                                                                                                                                                     |
-| <ul><li> [x] </li></ul> | [2220. Minimum Bit Flips to Convert Number][def65] `Easy` | we have to flip the bits if they are not same. so xor will be 1 if the two bits are different. so Integer.countBits(start ^ goal)                                                   |
-| <ul><li> [x] </li></ul> | [78. Subsets][def66] `Medium`                             | Use binary numbers as marking and pick the elements from given array when the bit in each number is 1                                                                               |
+| <ul><li> [ ] </li></ul> | [231. Is Power of 2][def64] `Easy`                        |                                                                                                                                                                                     |
+| <ul><li> [ ] </li></ul> | [2220. Minimum Bit Flips to Convert Number][def65] `Easy` | we have to flip the bits if they are not same. so xor will be 1 if the two bits are different. so Integer.countBits(start ^ goal)                                                   |
+| <ul><li> [ ] </li></ul> | [78. Subsets][def66] `Medium`                             | Use binary numbers as marking and pick the elements from given array when the bit in each number is 1                                                                               |
 | <ul><li> [x] </li></ul> | [136. Single Number][def67] `Easy`                        | Since every number is repeated twice except one. perform xor of all the numbers. Same numbers xor results in zero                                                                   |
-| <ul><li> [x] </li></ul> | [137. Single Number II][def68] `Medium`                   | Check each bit (32 bits) of all given numbers. Sum of the no. of ones at each ith bit position across all numbers should be a multiple of 3; if not, set the ith bit in the result. |
+| <ul><li> [ ] </li></ul> | [137. Single Number II][def68] `Medium`                   | Check each bit (32 bits) of all given numbers. Sum of the no. of ones at each ith bit position across all numbers should be a multiple of 3; if not, set the ith bit in the result. |
 
 <!-- Cyclic Sort  -->
 
@@ -219,3 +220,4 @@ Problems that can be solved using cyclic sort technique
 [def66]: LeetCode/BitManipulation/SubSets
 [def67]: https://leetcode.com/problems/single-number/
 [def68]: LeetCode/BitManipulation/SingleNumberII
+[def69]: LeetCode/BitManipulation/AddBinary
