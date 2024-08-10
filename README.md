@@ -27,6 +27,7 @@
 | [Selection Sort Algorithm][def29]                                                        | Pick the ith smallest element in each iteration and put it at correct index. Idea is to find the min/max element in an unsorted array and then put it at correct position |
 | [Insertion Sort Algorithm][def31]                                                        |                                                                                                                                                                           |
 | [HashMaps & Hashing Concept][def41]                                                      |                                                                                                                                                                           |
+| [Sieve Of Eratosthenes - Prime Numbers][def71]                                           | Find all the primes in a given range                                                                                                                                      |
 
 <!-- Arrays -->
 
@@ -126,18 +127,19 @@
 
 ### Maths & Bit Manipulation
 
-| Solved                  | Problem Details                                           | Description                                                                                                                                                                         |
-| ----------------------- | --------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <ul><li> [x] </li></ul> | [✨ Bit Manipulation Basics][def63]                       | Find the ith Bit(set or not); Swap Two Numbers using XOR; Set the ith Bit of a Number; Clear the ith Bit; Count the set bits                                                        |
-| <ul><li> [x] </li></ul> | [67. Add Binary][def69]                                   | Add two given binary numbers using math.                                                                                                                                             |
-| <ul><li> [x] </li></ul> | [Binary to Decimal][def62]                                |                                                                                                                                                                                     |
-| <ul><li> [x] </li></ul> | [✨ Missing Number][def13] `Easy`                         |                                                                                                                                                                                     |
-| <ul><li> [x] </li></ul> | [389. Find the Difference][def61] `Easy`                  |                                                                                                                                                                                     |
-| <ul><li> [ ] </li></ul> | [231. Is Power of 2][def64] `Easy`                        |                                                                                                                                                                                     |
-| <ul><li> [ ] </li></ul> | [2220. Minimum Bit Flips to Convert Number][def65] `Easy` | we have to flip the bits if they are not same. so xor will be 1 if the two bits are different. so Integer.countBits(start ^ goal)                                                   |
-| <ul><li> [ ] </li></ul> | [78. Subsets][def66] `Medium`                             | Use binary numbers as marking and pick the elements from given array when the bit in each number is 1                                                                               |
-| <ul><li> [x] </li></ul> | [136. Single Number][def67] `Easy`                        | Since every number is repeated twice except one. perform xor of all the numbers. Same numbers xor results in zero                                                                   |
-| <ul><li> [ ] </li></ul> | [137. Single Number II][def68] `Medium`                   | Check each bit (32 bits) of all given numbers. Sum of the no. of ones at each ith bit position across all numbers should be a multiple of 3; if not, set the ith bit in the result. |
+| Solved                  | Problem Details                                           | Description                                                                                                                                                                               |
+| ----------------------- | --------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <ul><li> [x] </li></ul> | [✨ Bit Manipulation Basics][def63]                       | Find the ith Bit(set or not); Swap Two Numbers using XOR; Set the ith Bit of a Number; Clear the ith Bit; Count the set bits                                                              |
+| <ul><li> [x] </li></ul> | [💎 67. Add Binary][def69]                                | Add two given binary numbers using math.                                                                                                                                                  |
+| <ul><li> [x] </li></ul> | [Binary to Decimal][def62]                                |                                                                                                                                                                                           |
+| <ul><li> [x] </li></ul> | [✨ Missing Number][def13] `Easy`                         |                                                                                                                                                                                           |
+| <ul><li> [x] </li></ul> | [389. Find the Difference][def61] `Easy`                  |                                                                                                                                                                                           |
+| <ul><li> [ ] </li></ul> | [231. Is Power of 2][def64] `Easy`                        |                                                                                                                                                                                           |
+| <ul><li> [ ] </li></ul> | [2220. Minimum Bit Flips to Convert Number][def65] `Easy` | we have to flip the bits if they are not same. so xor will be 1 if the two bits are different. so Integer.countBits(start ^ goal)                                                         |
+| <ul><li> [ ] </li></ul> | [78. Subsets][def66] `Medium`                             | Use binary numbers as marking and pick the elements from given array when the bit in each number is 1                                                                                     |
+| <ul><li> [x] </li></ul> | [136. Single Number][def67] `Easy`                        | Since every number is repeated twice except one. perform xor of all the numbers. Same numbers xor results in zero                                                                         |
+| <ul><li> [ ] </li></ul> | [137. Single Number II][def68] `Medium`                   | Check each bit (32 bits) of all given numbers. Sum of the no. of ones at each ith bit position across all numbers should be a multiple of 3; if not, set the ith bit in the result.       |
+| <ul><li> [ ] </li></ul> | [XOR of numbers from L to R][def70] `Easy`                | Start writing xor of numbers from 1 to 8 or 12, you'll observe a pattern. So based on that if we want xor of range getXorOfN(left-1) ^ getXorOfN(right); 4 to 7 means (1 to 7) ^ (1 to 3) |
 
 <!-- Cyclic Sort  -->
 
@@ -221,3 +223,5 @@ Problems that can be solved using cyclic sort technique
 [def67]: https://leetcode.com/problems/single-number/
 [def68]: LeetCode/BitManipulation/SingleNumberII
 [def69]: LeetCode/BitManipulation/AddBinary
+[def70]: https://www.geeksforgeeks.org/problems/find-xor-of-numbers-from-l-to-r/1
+[def71]: Algorithms/Maths/SieveOfEratosthenes.java
