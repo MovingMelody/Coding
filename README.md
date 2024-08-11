@@ -29,6 +29,7 @@
 | [HashMaps & Hashing Concept][def41]                                                      |                                                                                                                                                                           |
 | [Sieve Of Eratosthenes - Prime Numbers][def71]                                           | Find all the primes in a given range                                                                                                                                      |
 | [SQRT of a Number][def72]                                                                | Find the SQRT of a Number using Binary Search. Even if number is not a perfect square                                                                                     |
+| [Euclidean Algorithm - GCD of Two Nums][def73]                                           | Find GCD of two nums. Brute force, Eculidean Algorithm (Repeated Subtraction & Repeated Division)                                                                                                                                                                          |
 
 <!-- Arrays -->
 
@@ -227,3 +228,4 @@ Problems that can be solved using cyclic sort technique
 [def70]: https://www.geeksforgeeks.org/problems/find-xor-of-numbers-from-l-to-r/1
 [def71]: Algorithms/Maths/SieveOfEratosthenes.java
 [def72]: Algorithms/Maths/SquareRootOfNumber.java
+[def73]: Algorithms/Maths/GCD.java
