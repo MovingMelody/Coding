@@ -10,9 +10,21 @@ class Recursion {
 
         printNatural1(1);
 
-        printNaturalUsingRecursion(15);
+        System.out.println("Print Numbers from 1 to n using Recursion");
+        printNaturalUsingRecursion(8);
 
+        int n = 5;
+        int res = nFactorial(n);
+        System.out.printf("Factorial of %d is %d\n", n, res);
+
+        int digits = 123;
+        int sum = sumOfDigits(digits);
+        System.out.printf("Sum of digits in %d is %d\n", digits, sum);
+
+        int reverse = reverseNumber(digits);
+        System.out.printf("Reverse of %d is %d\n", digits, reverse);
     }
+
 
     static void printNatural1(int n) {
         System.out.println(n);
@@ -48,4 +60,26 @@ class Recursion {
         printNaturalUsingRecursion(n - 1);
         System.out.println(n);
     }
+
+    private static int nFactorial(int n) {
+        if (n == 1) return n;
+        return n * nFactorial(n - 1);
+    }
+
+    private static int sumOfDigits(int n) {
+        if (n < 10) return n;
+        int currentDigit = n % 10;
+        return currentDigit + sumOfDigits(n / 10);
+    }
+
+    public static int reverseNumber(int n) {
+        return reverseHelper(n, 0);
+    }
+
+    private static int reverseHelper(int n, int rev) {
+        if (n == 0) return rev;
+        int rem = n % 10;
+        return reverseHelper(n / 10, rev * 10 + rem);
+    }
+
 }
