@@ -95,11 +95,13 @@
 
 ### Recursion
 
-| Solved                  | Problem Details                                 | Description                                                                                    |
-| ----------------------- | ----------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| <ul><li> [ ] </li></ul> | [💎💎 Recursion Concept][def57]                 | Fibonacci, Factorial, Sum Of Digits, Reverse a Number, Pow(x,n), Binary Search Using Recursion |
-| <ul><li> [ ] </li></ul> | [💎 50. Pow(x,n)][def60]                        | Naive Recursive approach to Recursive calls Optimized approach                                 |
-| <ul><li> [ ] </li></ul> | [Count Zeros (or any digit) in a Number][def50] | Count Zeros in a given number using recursion                                                                                               |
+| Revision                | Problem Details                                     | Description                                                                                    |
+| ----------------------- | --------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| <ul><li> [ ] </li></ul> | [💎💎 Recursion Concept][def57]                     | Fibonacci, Factorial, Sum Of Digits, Reverse a Number, Pow(x,n), Binary Search Using Recursion |
+| <ul><li> [ ] </li></ul> | [💎💎 Recursion on Arrays][def77]                   | Reverse Array, IsArraySorted, Linear Search                                                    |
+| <ul><li> [ ] </li></ul> | [💎 50. Pow(x,n)][def60]                            | Naive Recursive approach to Recursive calls Optimized approach                                 |
+| <ul><li> [ ] </li></ul> | [Count Zeros (or any digit) in a Number][def50]     | Count Zeros in a given number using recursion                                                  |
+| <ul><li> [ ] </li></ul> | [Number of Steps to Reduce a Number to Zero][def76] |                                                                                                |
 
 <!-- Stack  -->
 
@@ -239,3 +241,5 @@ Problems that can be solved using cyclic sort technique
 [def73]: Algorithms/Maths/GCD.java
 [def74]: LeetCode/Arrays/GameOfLife
 [def50]: Algorithms/Recursion/CountZerosInNumber.java
+[def76]: https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/description/
+[def77]: Algorithms/Recursion/RecursionOnArrays.java
