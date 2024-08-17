@@ -4,11 +4,18 @@
 * @author Sai Sumanth
 */
 
+// cyclic-sort
+
 package MissingNumber_268;
+
+import java.util.Arrays;
 
 public class MissingNumber {
     public static void main(String[] args) {
         System.out.println("LC 268 Missing Number");
+        System.out.println(missingNumber(new int[] { 0, 2, 3, 1, 5 }));
+        System.out.println(missingNumberUsingXor(new int[] { 0, 2, 3, 1, 5 }));
+        System.out.println(missingNumberCyclicSort(new int[] { 9, 6, 4, 2, 3, 5, 7, 8, 1 }));
         /*
          * This problem can be solved in multiple ways
          * 
@@ -17,6 +24,7 @@ public class MissingNumber {
          * 
          * 2. Using basic Math - Sum
          * 3. Using XOR Operation
+         * 4. Perform Cyclic Sorting and find the missing Number
          */
     }
 
@@ -41,10 +49,10 @@ public class MissingNumber {
         return sum;
     }
 
-    /* 
+    /*
      * xor of same numbers is 0
      */
-    public int missingNumberUsingXor(int[] nums) {
+    public static int missingNumberUsingXor(int[] nums) {
         int sum = 0;
         for (int i = 0; i < nums.length; i++) {
             sum ^= i;
@@ -53,4 +61,32 @@ public class MissingNumber {
         sum ^= nums.length;
         return sum;
     }
+
+    public static int missingNumberCyclicSort(int[] nums) {
+        int res = nums.length;
+        int index = 0;
+        while (index < nums.length) {
+            int correctIndexOfCurrentNumber = nums[index]; // 0...N so index will be same as number
+            if (correctIndexOfCurrentNumber < nums.length && nums[index] != nums[correctIndexOfCurrentNumber]) {
+                // put the current number at correct index
+                int temp = nums[index];
+                nums[index] = nums[correctIndexOfCurrentNumber];
+                nums[correctIndexOfCurrentNumber] = temp;
+            } else {
+                // if the number is at correct index then increment index
+                index++;
+            }
+        }
+
+        System.out.println(Arrays.toString(nums));
+        for (int i = 0; i < nums.length; i++) {
+            if (i != nums[i]) {
+                res = i;
+                break;
+            }
+        }
+        return res;
+
+    }
+
 }
