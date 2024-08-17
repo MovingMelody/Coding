@@ -16,6 +16,9 @@ public class SquareRootOfNumber {
         sc.close();
     }
 
+    /*
+     * TC -> O(logN)
+     */
     public static double sqrt(int n, int p) {
         if (n == 0 || n == 1)
             return n;
