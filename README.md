@@ -87,10 +87,10 @@
 
 ### Recursion
 
-| Solved                  | Problem Details               | Description                                                                                    |
-|-------------------------|-------------------------------|------------------------------------------------------------------------------------------------|
-| <ul><li> [ ] </li></ul> | [💎 Recursion Concept][def57] | Fibonacci, Factorial, Sum Of Digits, Reverse a Number, Pow(x,n), Binary Search Using Recursion |
-| <ul><li> [ ] </li></ul> | [💎 50. Pow(x,n)][def60]      | Naive Recursive approach to Recursive calls Optimized approach                                 |
+| Solved                  | Problem Details                 | Description                                                                                    |
+|-------------------------|---------------------------------|------------------------------------------------------------------------------------------------|
+| <ul><li> [ ] </li></ul> | [💎💎 Recursion Concept][def57] | Fibonacci, Factorial, Sum Of Digits, Reverse a Number, Pow(x,n), Binary Search Using Recursion |
+| <ul><li> [ ] </li></ul> | [💎 50. Pow(x,n)][def60]        | Naive Recursive approach to Recursive calls Optimized approach                                 |
 
 <!-- Stack  -->
 

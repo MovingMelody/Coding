@@ -23,8 +23,11 @@ class Recursion {
 
         int reverse = reverseNumber(digits);
         System.out.printf("Reverse of %d is %d\n", digits, reverse);
-    }
 
+        System.out.printf("Why recursion logic for this reverseNumberDumb won't work. Rev of %d is %d only.\n", digits,
+                reverseNumberDumb(digits));
+
+    }
 
     static void printNatural1(int n) {
         System.out.println(n);
@@ -62,22 +65,43 @@ class Recursion {
     }
 
     private static int nFactorial(int n) {
-        if (n == 1) return n;
+        if (n == 1)
+            return n;
         return n * nFactorial(n - 1);
     }
 
     private static int sumOfDigits(int n) {
-        if (n < 10) return n;
+        if (n < 10)
+            return n;
         int currentDigit = n % 10;
         return currentDigit + sumOfDigits(n / 10);
     }
 
+    /*
+     * This recursion logic for reversing a number won't work.
+     * It produces the same number even though the logic seems correct.
+     */
+    public static int reverseNumberDumb(int n) {
+        if (n < 10)
+            return n;
+        int rem = n % 10;
+        /*
+         * if the given n is 123 the first rem will be 3. and that 3 will be added to
+         * remaining result in the end after all the remaining fn calls returns.
+         */
+        return rem + reverseNumberDumb(n / 10) * 10;
+    }
+
+    /*
+     * Corrected logic for reversing a number using recursive approach
+     */
     public static int reverseNumber(int n) {
         return reverseHelper(n, 0);
     }
 
     private static int reverseHelper(int n, int rev) {
-        if (n == 0) return rev;
+        if (n == 0)
+            return rev;
         int rem = n % 10;
         return reverseHelper(n / 10, rev * 10 + rem);
     }
