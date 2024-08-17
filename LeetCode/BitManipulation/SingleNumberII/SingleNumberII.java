@@ -20,6 +20,15 @@ class SingleNumberII {
         // Better Approach
         res = singleNumberIIBitManipulation(new int[] { 8, 2, 2, 2 });
         System.out.println(res);
+
+        // Optimal 1
+        res = singleNumberIIBySorting(new int[] { 8, 2, 2, 2 });
+        System.out.println(res);
+
+        // Most Optimal 😎 Bit Manipulation
+        res = singleNumberIIOptimal(new int[] { 2, 2, 2, 3, 5, 3, 5, 3, 5, 6 });
+        System.out.println(res);
+
     }
 
     /*
@@ -91,5 +100,19 @@ class SingleNumberII {
         // edge case when nums = [2, 2, 2, 3, 3, 3, 5 ] because i will go only 4th index
         // after that i+=3 will exceed the array length
         return nums[nums.length - 1];
+    }
+
+    /*
+     * Using Buckets concept
+     */
+    public static int singleNumberIIOptimal(int[] nums) {
+        int ones = 0, twos = 0;
+
+        for (int x : nums) {
+            ones = ones ^ x & ~twos;
+            twos = twos ^ x & ~ones;
+        }
+
+        return ones;
     }
 }
