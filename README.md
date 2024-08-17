@@ -49,6 +49,14 @@
 - [ ] 💎💎 [ 442. Find all Duplicates in an Array][def49] `Medium`
 - [ ] 💎 [41. First Missing Positive][def55] `Hard`
 
+<!-- 2D Arrays  -->
+
+### 2D Arrays
+
+| Status                  | Problem Details                     | Description |
+|-------------------------|-------------------------------------|-------------|
+| <ul><li> [x] </li></ul> | [289. Game of Life][def74] `Medium` |             |
+
 <!-- Strings  -->
 
 ### Strings
@@ -255,8 +263,6 @@ Problems that can be solved using cyclic sort technique
 
 [def49]: LeetCode/Arrays/FindAllDuplicatesInArray
 
-[def50]: DataStructures/Strings/StringsIntro.java
-
 [def51]: OOPS_JAVA/VarArgs.java
 
 [def52]: OOPS_JAVA/LoopsAndConditions.java
@@ -302,3 +308,5 @@ Problems that can be solved using cyclic sort technique
 [def72]: Algorithms/Maths/SquareRootOfNumber.java
 
 [def73]: Algorithms/Maths/GCD.java
+
+[def74]: LeetCode/Arrays/GameOfLife
