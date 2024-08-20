@@ -103,6 +103,7 @@
 | <ul><li> [ ] </li></ul> | [💎 50. Pow(x,n)][def60]                            | Naive Recursive approach to Recursive calls Optimized approach                                 |
 | <ul><li> [ ] </li></ul> | [Count Zeros (or any digit) in a Number][def50]     | Count Zeros in a given number using recursion                                                  |
 | <ul><li> [ ] </li></ul> | [Number of Steps to Reduce a Number to Zero][def76] |                                                                                                |
+| <ul><li> [ ] </li></ul> | [💎 Print Triangle Patterns using Recursion][def75] |                                                                                                |
 
 <!-- Stack  -->
 
@@ -244,3 +245,4 @@ Problems that can be solved using cyclic sort technique
 [def50]: Algorithms/Recursion/CountZerosInNumber.java
 [def76]: https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/description/
 [def77]: Algorithms/Recursion/RecursionOnArrays.java
+[def75]: Algorithms/Recursion/PatternsUsingRecursion.java
