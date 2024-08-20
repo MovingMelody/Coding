@@ -98,7 +98,8 @@
 | Revision                | Problem Details                                     | Description                                                                                    |
 | ----------------------- | --------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
 | <ul><li> [ ] </li></ul> | [💎💎 Recursion Concept][def57]                     | Fibonacci, Factorial, Sum Of Digits, Reverse a Number, Pow(x,n), Binary Search Using Recursion |
-| <ul><li> [ ] </li></ul> | [💎💎 Recursion on Arrays][def77]                   | Reverse Array, IsArraySorted, Linear Search                                                    |
+| <ul><li> [ ] </li></ul> | [💎💎 Recursion on Arrays][def77]                   | Reverse Array, IsArraySorted, Linear Search, Search in Rotated Sorted Array                    |
+| <ul><li> [ ] </li></ul> | [💎💎 Find all Indexes of target in Array ][def77]  | A Recursive fn whole return type is List. With & without passing the list in arguments.        |
 | <ul><li> [ ] </li></ul> | [💎 50. Pow(x,n)][def60]                            | Naive Recursive approach to Recursive calls Optimized approach                                 |
 | <ul><li> [ ] </li></ul> | [Count Zeros (or any digit) in a Number][def50]     | Count Zeros in a given number using recursion                                                  |
 | <ul><li> [ ] </li></ul> | [Number of Steps to Reduce a Number to Zero][def76] |                                                                                                |
@@ -107,9 +108,9 @@
 
 ### Stack
 
-| Solved                  | Problem Details                                                                             | Description                                                                                                     |
-| ----------------------- | ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| <ul><li> [ ] </li></ul> | [Implement Stack Operations - Push, Pop, Peek, Increment(uptoIndex, incrementValue)][def35] | Implement the given stack operations in O(1) Time Complexity. Especially INC operation is bit interesting here. |
+| Solved                  | Problem Details                                                                                | Description                                                                                                     |
+| ----------------------- | ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| <ul><li> [ ] </li></ul> | [💎 Implement Stack Operations - Push, Pop, Peek, Increment(uptoIndex, incrementValue)][def35] | Implement the given stack operations in O(1) Time Complexity. Especially INC operation is bit interesting here. |
 
 <!-- Dynamic Programming  -->
 

@@ -1,10 +1,12 @@
 /*
-* Created on 17 Aug 2024
-* 
-* @author Sai Sumanth
-*/
+ * Created on 17 Aug 2024
+ *
+ * @author Sai Sumanth
+ */
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class RecursionOnArrays {
     public static void main(String[] args) {
@@ -29,14 +31,41 @@ public class RecursionOnArrays {
         /*
          * Linear Search using Recursion
          */
-        int target = 1;
+        int target = 3;
         int foundIndex = linearSearch(nums, target, nums.length - 1);
         System.out.print(target);
         System.out
                 .println((foundIndex != -1 ? " found at index " + foundIndex : " Not found in the given array") + " "
                         + Arrays.toString(nums));
+
+        int[] repeatedNums = { 1, 24, 3, 5, 4, 3, 3, 3 };
+        /*
+         * Find all indices of a number in array
+         */
+        List<Integer> list = new ArrayList<>();
+        list = findAllIndices(repeatedNums, target, 0, list);
+        System.out.printf("All indexes of %d in the given list %s are: %s\n", target, Arrays.toString(repeatedNums),
+                list.toString());
+
+        /*
+         * 💎💎 Recursive Fn returns list without accepting any list in arguments
+         */
+        list = findAllIndicesWithoutPassingList(repeatedNums, target, 0);
+        System.out.printf("😎 NOW WITHOUT PASSING A LIST AS ARG. \nAll indexes of %d in the given list %s are: %s\n",
+                target,
+                Arrays.toString(repeatedNums),
+                list.toString());
+
+        /*
+         * Search in Rotated Sorted Array
+         */
+        int[] sorted = new int[] { 4, 5, 6, 1, 2, 3 };
+        int searchRotatedArrTarget = 2;
+        int searchIndex = searchInRotatedSortedArray(sorted, searchRotatedArrTarget, 0, sorted.length - 1);
+        System.out.println(searchRotatedArrTarget + " found at index: " + searchIndex);
     }
 
+    // Reverse the given array
     public static void reverseArray(int[] nums, int start, int end) {
         if (start >= end)
             return;
@@ -46,6 +75,7 @@ public class RecursionOnArrays {
         reverseArray(nums, ++start, --end);
     }
 
+    // check if arr is sorted or not
     private static boolean isArrSorted(int[] nums, int i) {
         /*
          * Below line is Off-topic not related to sort logic
@@ -75,4 +105,58 @@ public class RecursionOnArrays {
         return linearSearch(nums, target, endIndex - 1);
     }
 
+    /*
+     * Returning List from a Recursive Function
+     *
+     * Even though multiple 'list' variables gets created in each recursive fn, all
+     * the ref variables point to same object.
+     *
+     * Perform dry run to understand this example clearly
+     */
+    private static List<Integer> findAllIndices(int[] repeatedNums, int target, int index, List<Integer> list) {
+        if (index >= repeatedNums.length)
+            return list;
+        if (repeatedNums[index] == target)
+            list.add(index);
+        return findAllIndices(repeatedNums, target, index + 1, list);
+    }
+
+    private static List<Integer> findAllIndicesWithoutPassingList(int[] repeatedNums, int target, int index) {
+        List<Integer> res = new ArrayList<>();
+        if (index >= repeatedNums.length)
+            return res;
+
+        if (repeatedNums[index] == target)
+            res.add(index);
+
+        res.addAll(findAllIndicesWithoutPassingList(repeatedNums, target, index + 1));
+        return res;
+    }
+
+    private static int searchInRotatedSortedArray(int[] nums, int target, int start, int end) {
+
+        if (start > end)
+            return -1;
+
+        int mid = start + (end - start) / 2;
+        int middle = nums[mid];
+
+        if (middle == target)
+            return mid;
+
+        if (nums[start] <= middle) {
+            // left part of array is sorted
+            if (target >= nums[start] && target < middle) {
+                return searchInRotatedSortedArray(nums, target, start, mid - 1);
+            } else {
+                return searchInRotatedSortedArray(nums, target, mid + 1, end);
+            }
+        } else {
+            if (target > middle && target <= nums[end]) {
+                return searchInRotatedSortedArray(nums, target, mid + 1, end);
+            } else {
+                return searchInRotatedSortedArray(nums, target, start, mid - 1);
+            }
+        }
+    }
 }
