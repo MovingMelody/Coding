@@ -26,6 +26,8 @@
 | [Bubble Sort Algorithm][def28]                                                           | Compare every two adjacent elements and swap them if the first is > than second element. Largest element will be kept at the end after each pass                          |
 | [Selection Sort Algorithm][def29]                                                        | Pick the ith smallest element in each iteration and put it at correct index. Idea is to find the min/max element in an unsorted array and then put it at correct position |
 | [Insertion Sort Algorithm][def31]                                                        |                                                                                                                                                                           |
+| [Merge Sort - Two Way Iterative Approach][def78]                                         |                                                                                                                                                                           |
+| [Merge Sort - Recursive Approach][def79]                                                 |                                                                                                                                                                           |
 | [HashMaps & Hashing Concept][def41]                                                      |                                                                                                                                                                           |
 | [Sieve Of Eratosthenes - Prime Numbers][def71]                                           | Find all the primes in a given range                                                                                                                                      |
 | [SQRT of a Number][def72]                                                                | Find the SQRT of a Number using Binary Search. Even if number is not a perfect square                                                                                     |
@@ -246,3 +248,5 @@ Problems that can be solved using cyclic sort technique
 [def76]: https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/description/
 [def77]: Algorithms/Recursion/RecursionOnArrays.java
 [def75]: Algorithms/Recursion/PatternsUsingRecursion.java
+[def78]: Algorithms/Sorting/MergeSort2WayIterative.java
+[def79]: Algorithms/Sorting/MergeSort.java
