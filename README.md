@@ -97,15 +97,16 @@
 
 ### Recursion
 
-| Revision                | Problem Details                                     | Description                                                                                    |
-| ----------------------- | --------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| <ul><li> [ ] </li></ul> | [💎💎 Recursion Concept][def57]                     | Fibonacci, Factorial, Sum Of Digits, Reverse a Number, Pow(x,n), Binary Search Using Recursion |
-| <ul><li> [ ] </li></ul> | [💎💎 Recursion on Arrays][def77]                   | Reverse Array, IsArraySorted, Linear Search, Search in Rotated Sorted Array                    |
-| <ul><li> [ ] </li></ul> | [💎💎 Find all Indexes of target in Array ][def77]  | A Recursive fn whole return type is List. With & without passing the list in arguments.        |
-| <ul><li> [ ] </li></ul> | [💎 50. Pow(x,n)][def60]                            | Naive Recursive approach to Recursive calls Optimized approach                                 |
-| <ul><li> [ ] </li></ul> | [Count Zeros (or any digit) in a Number][def50]     | Count Zeros in a given number using recursion                                                  |
-| <ul><li> [ ] </li></ul> | [Number of Steps to Reduce a Number to Zero][def76] |                                                                                                |
-| <ul><li> [ ] </li></ul> | [💎 Print Triangle Patterns using Recursion][def75] |                                                                                                |
+| Revision                | Problem Details                                       | Description                                                                                    |
+| ----------------------- | ----------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| <ul><li> [ ] </li></ul> | [💎💎 Recursion Concept][def57]                       | Fibonacci, Factorial, Sum Of Digits, Reverse a Number, Pow(x,n), Binary Search Using Recursion |
+| <ul><li> [ ] </li></ul> | [💎💎 Recursion on Arrays][def77]                     | Reverse Array, IsArraySorted, Linear Search, Search in Rotated Sorted Array                    |
+| <ul><li> [ ] </li></ul> | [💎💎 Find all Indexes of target in Array ][def77]    | A Recursive fn whole return type is List. With & without passing the list in arguments.        |
+| <ul><li> [ ] </li></ul> | [💎 50. Pow(x,n)][def60]                              | Naive Recursive approach to Recursive calls Optimized approach                                 |
+| <ul><li> [ ] </li></ul> | [Count Zeros (or any digit) in a Number][def50]       | Count Zeros in a given number using recursion                                                  |
+| <ul><li> [ ] </li></ul> | [Number of Steps to Reduce a Number to Zero][def76]   |                                                                                                |
+| <ul><li> [ ] </li></ul> | [💎 Print Triangle Patterns using Recursion][def75]   |                                                                                                |
+| <ul><li> [ ] </li></ul> | [Bubble Sort & Selection Sort Using Recursion][def80] |                                                                                                |
 
 <!-- Stack  -->
 
@@ -250,3 +251,4 @@ Problems that can be solved using cyclic sort technique
 [def75]: Algorithms/Recursion/PatternsUsingRecursion.java
 [def78]: Algorithms/Sorting/MergeSort2WayIterative.java
 [def79]: Algorithms/Sorting/MergeSort.java
+[def80]: Algorithms/Recursion/SortingUsingRecursion.java
