@@ -25,15 +25,21 @@ public class MergeSort2WayIterative {
             return nums;
 
         int mid = nums.length / 2;
-        int[] leftArray = mergeSort(Arrays.copyOfRange(nums, 0, mid)); // start Index to mid(exclusive)
-        int[] rightArray = mergeSort(Arrays.copyOfRange(nums, mid, nums.length)); // mid index becomes start here and
-                                                                                  // end will be arr.length
 
+        // start Index to mid(exclusive)
+        int[] leftArray = mergeSort(Arrays.copyOfRange(nums, 0, mid));
+
+        // mid index becomes start here and end will be arr.length
+        int[] rightArray = mergeSort(Arrays.copyOfRange(nums, mid, nums.length));
+
+        // merge both left array, right array and return them
         return mergeTwoArrays(leftArray, rightArray);
     }
 
     private static int[] mergeTwoArrays(int[] leftArray, int[] rightArray) {
         int[] mergedRes = new int[leftArray.length + rightArray.length];
+
+        // i and j are the two pointers used to point each of them to each array
         int i = 0, j = 0, k = 0;
         while (i < leftArray.length && j < rightArray.length) {
             if (leftArray[i] < rightArray[j]) {
