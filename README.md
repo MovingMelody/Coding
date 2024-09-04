@@ -109,6 +109,7 @@
 | <ul><li> [ ] </li></ul> | [💎 Print Triangle Patterns using Recursion][def75]   |                                                                                                |
 | <ul><li> [ ] </li></ul> | [Bubble Sort & Selection Sort Using Recursion][def80] |                                                                                                |
 | <ul><li> [ ] </li></ul> | [💎 Recursion on Strings][def81]                      | Remove a specific char, Subsets, Subsequence, Generate all subsets of array                    |
+| <ul><li> [ ] </li></ul> | [231. Is Power of 2][def83] `Easy`                    | Call the fn recursively until number becomes 1 or any other odd number. If 1 return true.       |
 
 <!-- Stack  -->
 
@@ -154,7 +155,7 @@
 | <ul><li> [x] </li></ul> | [Binary to Decimal][def62]                                |                                                                                                                                                                                           |
 | <ul><li> [x] </li></ul> | [✨ Missing Number][def13] `Easy`                         |                                                                                                                                                                                           |
 | <ul><li> [x] </li></ul> | [389. Find the Difference][def61] `Easy`                  |                                                                                                                                                                                           |
-| <ul><li> [ ] </li></ul> | [231. Is Power of 2][def64] `Easy`                        |                                                                                                                                                                                           |
+| <ul><li> [ ] </li></ul> | [231. Is Power of 2][def64] `Easy`                        | If a number if power of two then and between n & n-1 should be 0. If n is power of two then obviously there will be only one 1 in binary representation.                                  |
 | <ul><li> [ ] </li></ul> | [2220. Minimum Bit Flips to Convert Number][def65] `Easy` | we have to flip the bits if they are not same. so xor will be 1 if the two bits are different. so Integer.countBits(start ^ goal)                                                         |
 | <ul><li> [ ] </li></ul> | [78. Subsets][def66] `Medium`                             | Use binary numbers as marking and pick the elements from given array when the bit in each number is 1                                                                                     |
 | <ul><li> [x] </li></ul> | [136. Single Number][def67] `Easy`                        | Since every number is repeated twice except one. perform xor of all the numbers. Same numbers xor results in zero                                                                         |
@@ -256,3 +257,4 @@ Problems that can be solved using cyclic sort technique
 [def80]: Algorithms/Recursion/SortingUsingRecursion.java
 [def81]: Algorithms/Recursion/RecursionOnStrings.java
 [def82]: Algorithms/Sorting/3-way-merging.py
+[def83]: Algorithms/Recursion/PowerOfTwo.java
