@@ -38,19 +38,22 @@
 
 ### Arrays
 
-- [ ] [Valid Mountain Array][def10] `Easy`
-- [ ] [Rotate Array][def6] `Medium` `Two Pointers`
-- [ ] 💎 [Product of Array Except Itself][def5] `Medium` `Prefix Sum` `Suffix Sum`
-- [ ] [Minimum Size Subarray Sum][def4] `Medium` `Two Pointers` `Sliding Window`
-- [ ] [LC 349. Intersection of Two Arrays][def3] `Easy`
-- [x] [Check If arrays is sorted & Rotated][def] `Easy`
-- [x] [Remove Duplicates From Sorted Array][def2] `Easy`
-- [ ] 💎 [Move Zeroes][move_zeros] `Easy`
-- [ ] 🧬 [Majority Element - Moore's Voting Algorithm][def12] `Easy`
-- [x] 💎 [Number of Arithmetic Triplets][def18] `Easy`
-- [ ] 💎 [Remove Duplicates From Sorted Array II][def20] `Medium`
-- [ ] 💎💎 [ 442. Find all Duplicates in an Array][def49] `Medium`
-- [ ] 💎 [41. First Missing Positive][def55] `Hard`
+| Revised Status          | Problem Details                                                              | Description                                                                              |
+| ----------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| <ul><li> [ ] </li></ul> | [Valid Mountain Array][def10] `Easy`                                         |                                                                                          |
+| <ul><li> [ ] </li></ul> | [Rotate Array][def6] `Medium` `Two Pointers`                                 |                                                                                          |
+| <ul><li> [ ] </li></ul> | 💎 [Product of Array Except Itself][def5] `Medium` `Prefix Sum` `Suffix Sum` |                                                                                          |
+| <ul><li> [ ] </li></ul> | [Minimum Size Subarray Sum][def4] `Medium` `Two Pointers` `Sliding Window`   |                                                                                          |
+| <ul><li> [ ] </li></ul> | [LC 349. Intersection of Two Arrays][def3] `Easy`                            |                                                                                          |
+| <ul><li> [ ] </li></ul> | [Check If arrays is sorted & Rotated][def] `Easy`                            |                                                                                          |
+| <ul><li> [ ] </li></ul> | [Remove Duplicates From Sorted Array][def2] `Easy`                           |                                                                                          |
+| <ul><li> [ ] </li></ul> | 💎 [Move Zeroes][move_zeros] `Easy`                                          |                                                                                          |
+| <ul><li> [ ] </li></ul> | 🧬 [Majority Element - Moore's Voting Algorithm][def12] `Easy`               |                                                                                          |
+| <ul><li> [ ] </li></ul> | 💎 [Number of Arithmetic Triplets][def18] `Easy`                             |                                                                                          |
+| <ul><li> [ ] </li></ul> | 💎 [Remove Duplicates From Sorted Array II][def20] `Medium`                  |                                                                                          |
+| <ul><li> [ ] </li></ul> | 💎💎 [ 442. Find all Duplicates in an Array][def49] `Medium`                 |                                                                                          |
+| <ul><li> [ ] </li></ul> | 💎 [41. First Missing Positive][def55] `Hard`                                |                                                                                          |
+| <ul><li> [ ] </li></ul> | 💎 [2028. Find missing observations][def84] `Medium`                         | Nice Math Problem. It's all about dividing x into n parts. Each part ranges from 1 to 6. |
 
 <!-- 2D Arrays  -->
 
@@ -88,11 +91,14 @@
 
 ### Two Pointers
 
-- [ ] [167 Two Sum II - Input Array Is Sorted][def11] `Medium`
-- [ ] [💎 125 Valid Pallindrome][def14] `Easy`
-- [x] [💎 680 Valid Pallindrome II][def15] `Easy`
-- [ ] [💎 LC 13. 3Sum][def17] `Medium`
-- [ ] [💎 88 Merge Sorted Array][def48] `Medium`
+| Revised Status          | Problem Details                                          | Description |
+| ----------------------- | -------------------------------------------------------- | ----------- |
+| <ul><li> [ ] </li></ul> | [167 Two Sum II - Input Array Is Sorted][def11] `Medium` |             |
+| <ul><li> [ ] </li></ul> | [💎 125 Valid Pallindrome][def14] `Easy`                 |             |
+| <ul><li> [ ] </li></ul> | [💎 680 Valid Pallindrome II][def15] `Easy`              |             |
+| <ul><li> [ ] </li></ul> | [💎 LC 13. 3Sum][def17] `Medium`                         |             |
+| <ul><li> [ ] </li></ul> | [💎 88 Merge Sorted Array][def48] `Medium`               |             |
+| <ul><li> [ ] </li></ul> |                                                          |             |
 
 <!-- Recursion  -->
 
@@ -108,8 +114,8 @@
 | <ul><li> [ ] </li></ul> | [Number of Steps to Reduce a Number to Zero][def76]   |                                                                                                |
 | <ul><li> [ ] </li></ul> | [💎 Print Triangle Patterns using Recursion][def75]   |                                                                                                |
 | <ul><li> [ ] </li></ul> | [Bubble Sort & Selection Sort Using Recursion][def80] |                                                                                                |
-| <ul><li> [ ] </li></ul> | [💎 Recursion on Strings][def81]                      | Remove a specific char, Subsets, Subsequence, Generate all subsets of array                    |
-| <ul><li> [ ] </li></ul> | [231. Is Power of 2][def83] `Easy`                    | Call the fn recursively until number becomes 1 or any other odd number. If 1 return true.       |
+| <ul><li> [ ] </li></ul> | [💎 Recursion on Strings][def81]                      | Remove a specific char, Subsets, Subsequences, Generate all subsets of array                   |
+| <ul><li> [ ] </li></ul> | [231. Is Power of 2][def83] `Easy`                    | Call the fn recursively until number becomes 1 or any other odd number. If 1 return true.      |
 
 <!-- Stack  -->
 
@@ -123,9 +129,9 @@
 
 ### Dynamic Programming
 
-| Solved                  | Problem Details                                 | Description                                                                             |
-| ----------------------- | ----------------------------------------------- | --------------------------------------------------------------------------------------- |
-| <ul><li> [ ] </li></ul> | [121. Best Time to Buy and Sell a Stock][def30] | Keep track of min price before the ith price and subtract min price from current price. |
+| Solved                  | Problem Details                                    | Description                                                                             |
+| ----------------------- | -------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| <ul><li> [ ] </li></ul> | [💎 121. Best Time to Buy and Sell a Stock][def30] | Keep track of min price before the ith price and subtract min price from current price. |
 
 <!-- HashTable  -->
 
@@ -258,3 +264,4 @@ Problems that can be solved using cyclic sort technique
 [def81]: Algorithms/Recursion/RecursionOnStrings.java
 [def82]: Algorithms/Sorting/3-way-merging.py
 [def83]: Algorithms/Recursion/PowerOfTwo.java
+[def84]: LeetCode/Arrays/FindMissingObservations

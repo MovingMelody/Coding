@@ -94,7 +94,19 @@ public class RecursionOnStrings {
     /*
      * Generate all subsequences of a string,
      * This fn doesn't return anything, stores each substring in class-level array
-     * `subSequences` declared at the top
+     * `subSequences` declared at the top.
+     * 
+     * Algorithm: Take two strings processed and unprocessed.
+     * Unprocessed string will be the given string.
+     * Processed string will be empty initially
+     * 
+     * In each step(draw recursive tree) chop off the first char of unProcessed and
+     * do two things
+     * 1. Add that char to processed string
+     * 2. On the other side ignore that char
+     * 
+     * Repeat the above two steps until unprocessed string becomes empty. when it's
+     * empty then consider the processed string as one sub-sequence
      */
     static void findAllSubsequencesOfString(String processedString, String unProcessedString) {
         if (unProcessedString.isEmpty()) {
@@ -105,9 +117,8 @@ public class RecursionOnStrings {
             return;
         }
         // every time we are taking first char because we are trimming the first char
-        // every time
-        // this fn is called again. instead of modifying the given string, you can add
-        // currentIndex as argument
+        // every time this fn is called again. instead of modifying the given string,
+        // you can add currentIndex as argument
         char firstChar = unProcessedString.charAt(0);
 
         // consider first char
@@ -117,6 +128,10 @@ public class RecursionOnStrings {
         findAllSubsequencesOfString(processedString, unProcessedString.substring(1));
     }
 
+    /*
+     * For string "abc" the list of all sub sequences [abc, ab, ac, a, bc, b, c, ]
+     * along with the empty string
+     */
     static List<String> generateAllSubsequences(String current, String s) {
         if (s.isEmpty()) {
             List<String> list = new ArrayList<>();
@@ -154,7 +169,6 @@ public class RecursionOnStrings {
                 res.add(eachInternal);
             }
         }
-
         return res;
     }
 
