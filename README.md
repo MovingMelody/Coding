@@ -7,6 +7,7 @@
 
 ### Basic Concepts
 
+- [Imp Code Snippets/Logics](code_snippets.md)
 - [Java Cheat Sheet Notion Link ↗][def34]
 - [Var Args - Java][def51]
 - [Loops & Conditions][def52]

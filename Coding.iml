@@ -16,6 +16,7 @@
       <sourceFolder url="file://$MODULE_DIR$/LeetCode/BitManipulation" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Algorithms/Recursion" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LeetCode/TwoPointers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Algorithms/Maths" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
