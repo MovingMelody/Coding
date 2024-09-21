@@ -181,6 +181,14 @@ Problems that can be solved using cyclic sort technique
 - [448. Find All Numbers Disappeared in an Array][def46]
 - [268. Missing Number][def47]
 
+<!-- Bucket Sort  -->
+
+### Bucket Sort
+
+Problems that can be solved using Bucket sort technique
+
+- [💎 Minimum Time Difference][def85]
+
 [def]: https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/
 [def2]: https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
 [def3]: https://leetcode.com/problems/intersection-of-two-arrays/
@@ -266,3 +274,4 @@ Problems that can be solved using cyclic sort technique
 [def82]: Algorithms/Sorting/3-way-merging.py
 [def83]: Algorithms/Recursion/PowerOfTwo.java
 [def84]: LeetCode/Arrays/FindMissingObservations
+[def85]: LeetCode/Maths/MinimumTimeDifference
