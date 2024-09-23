@@ -14,6 +14,7 @@
 - [Strings & StringBuilder - Java][def53]
 - [Boxing, Unboxing, Auto-boxing - Java][def54]
 - [Patterns][def59]
+- [Second Largest Element][def86]
 
 <!-- Popular Algorithms  -->
 
@@ -275,3 +276,4 @@ Problems that can be solved using Bucket sort technique
 [def83]: Algorithms/Recursion/PowerOfTwo.java
 [def84]: LeetCode/Arrays/FindMissingObservations
 [def85]: LeetCode/Maths/MinimumTimeDifference
+[def86]: DataStructures/Arrays/SecondLargestElementInArray/SecondLargestElementInArray.go
