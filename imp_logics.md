@@ -2,7 +2,7 @@
 
 ### Divisors of Number
 
-```java
+```go
 /*
 
 LINK -> https://leetcode.com/problems/perfect-number/description/
@@ -33,4 +33,34 @@ func checkPerfectNumber(num int) bool {
 	// so as per the question we need to exclude the num itself
 	return sum-num == num
 }
+```
+
+<!-- Generate all the prefixes of a number -->
+
+```go
+/*
+
+All Prefixes of number 98798 are:
+9
+98
+987
+9879
+98798
+
+To get 9 we need to divide 98798 with 10000
+
+ */
+
+func printPrefixesOfNum(x int) {
+	divisor := 1
+	for divisor <= x/10 {
+		divisor *= 10
+	}
+
+	for divisor > 0 {
+		fmt.Println(x / divisor)
+		divisor /= 10
+	}
+}
+
 ```
