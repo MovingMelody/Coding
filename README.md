@@ -69,11 +69,12 @@
 
 ### Strings
 
-| Solved                  | Problem Details                                                                  | Description                                                                                                                                                                     |
-| ----------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <ul><li> [ ] </li></ul> | [Valid Anagram][def7] `Easy`                                                     |                                                                                                                                                                                 |
-| <ul><li> [x] </li></ul> | [796. Rotate String - Find if s can become g after some rotations][def56] `Easy` | BruteForce: return (s+s).contains(g). Optimal: Get the starting index (s.char(i) == g.charAt(i)) and check if the strings are equal. Use (i%len) if pointers goes out of index. |
-| <ul><li> [x] </li></ul> | [Reverse words in a String][def58] `Medium`                                      |                                                                                                                                                                                 |
+| Problem Details                                                                  | Description                                                                                                                                                                                      |
+| -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [Valid Anagram][def7] `Easy`                                                     |                                                                                                                                                                                                  |
+| [796. Rotate String - Find if s can become g after some rotations][def56] `Easy` | BruteForce: return (s+s).contains(g). Optimal: Get the starting index (s.char(i) == g.charAt(i)) and check if the strings are equal. Use (i%len) if pointers goes out of index.                  |
+| [Reverse words in a String][def58] `Medium`                                      |                                                                                                                                                                                                  |
+| [💎💎 14. Longest Common Prefix][def90]                                          | BtureForce: find the minlen of all string and check the each char of each string until minlen .Optimal:sort the given list of strings. find the max common prefix len for first and last strings |
 
 <!-- Binary Search  -->
 
@@ -281,3 +282,4 @@ Problems that can be solved using Bucket sort technique
 [def87]: https://leetcode.com/problems/duplicate-zeros/description/
 [def88]: https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/?envType=daily-question&envId=2024-09-24
 [def89]: LeetCode/Arrays/01DuplicateZeros/duplicate_zeros.go
+[def90]: LeetCode/Strings/LongestCommonPrefix
