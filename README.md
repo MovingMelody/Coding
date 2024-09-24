@@ -93,14 +93,14 @@
 
 ### Two Pointers
 
-| Revised Status          | Problem Details                                          | Description |
-| ----------------------- | -------------------------------------------------------- | ----------- |
-| <ul><li> [ ] </li></ul> | [167 Two Sum II - Input Array Is Sorted][def11] `Medium` |             |
-| <ul><li> [ ] </li></ul> | [💎 125 Valid Pallindrome][def14] `Easy`                 |             |
-| <ul><li> [ ] </li></ul> | [💎 680 Valid Pallindrome II][def15] `Easy`              |             |
-| <ul><li> [ ] </li></ul> | [💎 LC 13. 3Sum][def17] `Medium`                         |             |
-| <ul><li> [ ] </li></ul> | [💎 88 Merge Sorted Array][def48] `Medium`               |             |
-| <ul><li> [ ] </li></ul> |                                                          |             |
+| Revised Status          | Problem Details                                          | Description                            |
+| ----------------------- | -------------------------------------------------------- | -------------------------------------- |
+| <ul><li> [ ] </li></ul> | [167 Two Sum II - Input Array Is Sorted][def11] `Medium` |                                        |
+| <ul><li> [ ] </li></ul> | [💎 125 Valid Pallindrome][def14] `Easy`                 |                                        |
+| <ul><li> [ ] </li></ul> | [💎 680 Valid Pallindrome II][def15] `Easy`              |                                        |
+| <ul><li> [ ] </li></ul> | [💎 LC 13. 3Sum][def17] `Medium`                         |                                        |
+| <ul><li> [ ] </li></ul> | [💎 88 Merge Sorted Array][def48] `Medium`               |                                        |
+| <ul><li> [ ] </li></ul> | [💎 Duplicate Zeros][def87] [code][def89]                | use extra array to generate the result |
 
 <!-- Recursion  -->
 
@@ -139,18 +139,19 @@
 
 ### HashTable
 
-| Solved                  | Problem Details                                           | Description                                                                                                                                                                                                                                                                 |
-| ----------------------- | --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <ul><li> [ ] </li></ul> | [💎 1002. Find Common Characters][def8] `Easy`            |                                                                                                                                                                                                                                                                             |
-| <ul><li> [ ] </li></ul> | [202. Happy Number][def32] `Easy` `Floyd Cycle Detection` | Solution1: Store 'n' value in HashMap until (!set.contains(n)) and return true if n becomes 1. Solution2: Use Two-Pointers Fast & Slow and detect cycle using floyds cycle algo. Slow and Fast pointers will move until they become equal. return if slow == 1 or fast == 1 |
-| <ul><li> [ ] </li></ul> | [205. Isomorphic Strings][def33] `Easy`                   | Use HashMap and store the key value mappings, next time when key comes again in 's' then it's value should be equal to current char of 't'                                                                                                                                  |
-| <ul><li> [x] </li></ul> | [2090. Word Pattern][def36] `Easy`                        | Same as Isomorphic Strings Problem                                                                                                                                                                                                                                          |
-| <ul><li> [x] </li></ul> | [💎 2248. Intersection of Multiple Arrays][def37] `Easy`  | Combination of Sorting and Hashing. Super Interesting Problem.                                                                                                                                                                                                              |
-| <ul><li> [ ] </li></ul> | [13. Roman to Integer][def38] `Medium`                    |                                                                                                                                                                                                                                                                             |
-| <ul><li> [ ] </li></ul> | [💎 12. Integer to Roman][def39] `Medium`                 |                                                                                                                                                                                                                                                                             |
-| <ul><li> [x] </li></ul> | [💎 49. Group Anagrams][def40] `Medium`                   | Just one loop is enough. Sort each string and use that sorted one as key in hashmap and put the actual string as value. Anagrams will be grouped under each key                                                                                                             |
-| <ul><li> [ ] </li></ul> | [💎 128. Longest Consecutive Sequence][def42] `Medium`    | Brute force way is to sort the array and find the longest sequence. Optimized way: Put all the elements in a HashSet and loop through the array again check if (x-1) exists in set or not. If not the x might be the starting point of longest sequence.                    |
-| <ul><li> [ ] </li></ul> | [💎 Encode & Decode Strings][def43] `Medium`              |                                                                                                                                                                                                                                                                             |
+| Problem Details                                                | Description                                                                                                                                                                                                                                                                 |
+| -------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [💎 1002. Find Common Characters][def8] `Easy`                 |                                                                                                                                                                                                                                                                             |
+| [202. Happy Number][def32] `Easy` `Floyd Cycle Detection`      | Solution1: Store 'n' value in HashMap until (!set.contains(n)) and return true if n becomes 1. Solution2: Use Two-Pointers Fast & Slow and detect cycle using floyds cycle algo. Slow and Fast pointers will move until they become equal. return if slow == 1 or fast == 1 |
+| [205. Isomorphic Strings][def33] `Easy`                        | Use HashMap and store the key value mappings, next time when key comes again in 's' then it's value should be equal to current char of 't'                                                                                                                                  |
+| [2090. Word Pattern][def36] `Easy`                             | Same as Isomorphic Strings Problem                                                                                                                                                                                                                                          |
+| [💎 2248. Intersection of Multiple Arrays][def37] `Easy`       | Combination of Sorting and Hashing. Super Interesting Problem.                                                                                                                                                                                                              |
+| [13. Roman to Integer][def38] `Medium`                         |                                                                                                                                                                                                                                                                             |
+| [💎 12. Integer to Roman][def39] `Medium`                      |                                                                                                                                                                                                                                                                             |
+| [💎 49. Group Anagrams][def40] `Medium`                        | Just one loop is enough. Sort each string and use that sorted one as key in hashmap and put the actual string as value. Anagrams will be grouped under each key                                                                                                             |
+| [💎 128. Longest Consecutive Sequence][def42] `Medium`         | Brute force way is to sort the array and find the longest sequence. Optimized way: Put all the elements in a HashSet and loop through the array again check if (x-1) exists in set or not. If not the x might be the starting point of longest sequence.                    |
+| [💎 Encode & Decode Strings][def43] `Medium`                   |                                                                                                                                                                                                                                                                             |
+| [Find the Length of the Longest Common Prefix][def88] `Medium` | SOLVED. store all the prefixes of each num in one array in hashset and iterate through another set to find the longest prefix                                                                                                                                               |
 
 <!-- Maths & Bit Manipulation  -->
 
@@ -277,3 +278,6 @@ Problems that can be solved using Bucket sort technique
 [def84]: LeetCode/Arrays/FindMissingObservations
 [def85]: LeetCode/Maths/MinimumTimeDifference
 [def86]: DataStructures/Arrays/SecondLargestElementInArray/SecondLargestElementInArray.go
+[def87]: https://leetcode.com/problems/duplicate-zeros/description/
+[def88]: https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/?envType=daily-question&envId=2024-09-24
+[def89]: LeetCode/Arrays/01DuplicateZeros/duplicate_zeros.go
