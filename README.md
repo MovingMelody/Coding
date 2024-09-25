@@ -183,6 +183,7 @@ Problems that can be solved using cyclic sort technique
 - [442. Find all Duplicates in an Array][def49]
 - [448. Find All Numbers Disappeared in an Array][def46]
 - [268. Missing Number][def47]
+- [CSES Missing Number][def92]
 
 <!-- Bucket Sort  -->
 
@@ -191,6 +192,12 @@ Problems that can be solved using cyclic sort technique
 Problems that can be solved using Bucket sort technique
 
 - [💎 Minimum Time Difference][def85]
+
+### CSES Problem Set
+
+**Introductory Problems:** [Weird Algorithm][def91], [Missing Number][def92]
+
+**Dynamic Programming:**
 
 [def]: https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/
 [def2]: https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
@@ -283,3 +290,5 @@ Problems that can be solved using Bucket sort technique
 [def88]: https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/?envType=daily-question&envId=2024-09-24
 [def89]: LeetCode/Arrays/01DuplicateZeros/duplicate_zeros.go
 [def90]: LeetCode/Strings/LongestCommonPrefix
+[def91]: RandomProblems/WeirdAlgorithm.java
+[def92]: RandomProblems/MissingNumber.java
