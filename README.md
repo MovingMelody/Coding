@@ -195,7 +195,7 @@ Problems that can be solved using Bucket sort technique
 
 ### CSES Problem Set
 
-**Introductory Problems:** [Weird Algorithm][def91], [Missing Number][def92], [Repetitions][def93]
+**Introductory Problems:** [Weird Algorithm][def91], [Missing Number][def92], [Repetitions][def93], [Increasing Array][def94], [Permutations][def95]
 
 **Dynamic Programming:**
 
@@ -293,3 +293,5 @@ Problems that can be solved using Bucket sort technique
 [def91]: RandomProblems/WeirdAlgorithm.java
 [def92]: RandomProblems/MissingNumber.java
 [def93]: RandomProblems/CSESRepetitions.java
+[def94]: RandomProblems/CsesIncreasingArray.java
+[def95]: RandomProblems/CSESPermutations.java
