@@ -90,6 +90,14 @@
 | <ul><li> [ ] </li></ul> | [33. Search Element in Rotated Sorted Array][def26]                   | First, determine which part of the array is sorted (the part before the mid or the part after the mid using condition `(nums[start] <= middle)` ). Then figure out where the target lies in the left part or right part of array                                                                                    |
 | <ul><li> [ ] </li></ul> | [81. Search Element in Rotated Sorted Array 2][def27]                 | Same as above problem. But one extra condition `if(middle == nums[start] && middle == nums[end])` will be added since duplicate elements are there `[1, 0, 1, 1, 1]`. In that condition we have to move start and end pointers as long as both the values are same.                                                 |
 
+<!-- Sorting -->
+
+### Sorting
+
+| Problem                                                            | Description                        |
+| ------------------------------------------------------------------ | ---------------------------------- |
+| [3301. Maximize the Total Height of Unique Towers][def96] `Medium` | Hashmaps & Sorting usecase problem |
+
 <!-- Two Pointers  -->
 
 ### Two Pointers
@@ -295,3 +303,4 @@ Problems that can be solved using Bucket sort technique
 [def93]: RandomProblems/CSESRepetitions.java
 [def94]: RandomProblems/CsesIncreasingArray.java
 [def95]: RandomProblems/CSESPermutations.java
+[def96]: LeetCode/Sorting/MaximizeTheTotalHeightOfUniqueTowers
