@@ -146,7 +146,7 @@
 
 <!-- HashTable  -->
 
-### HashTable
+### HashTable/Counting
 
 | Problem Details                                                | Description                                                                                                                                                                                                                                                                 |
 | -------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -161,6 +161,7 @@
 | [💎 128. Longest Consecutive Sequence][def42] `Medium`         | Brute force way is to sort the array and find the longest sequence. Optimized way: Put all the elements in a HashSet and loop through the array again check if (x-1) exists in set or not. If not the x might be the starting point of longest sequence.                    |
 | [💎 Encode & Decode Strings][def43] `Medium`                   |                                                                                                                                                                                                                                                                             |
 | [Find the Length of the Longest Common Prefix][def88] `Medium` | SOLVED. store all the prefixes of each num in one array in hashset and iterate through another set to find the longest prefix                                                                                                                                               |
+| [💎💎 1497. Check If Array Pairs Are Divisible by k][def97]    | suppose k = 5, now we can say 7 and 3 is a pair whose sum is divisible by 5 by checking the modulo of 7 and 3. Sum of Mod of each number should be equal to k.                                                                                                              |
 
 <!-- Maths & Bit Manipulation  -->
 
@@ -304,3 +305,4 @@ Problems that can be solved using Bucket sort technique
 [def94]: RandomProblems/CsesIncreasingArray.java
 [def95]: RandomProblems/CSESPermutations.java
 [def96]: LeetCode/Sorting/MaximizeTheTotalHeightOfUniqueTowers
+[def97]: LeetCode/HashTable/CheckIfArrayPairsAreDivisibleByK
