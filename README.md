@@ -40,22 +40,22 @@
 
 ### Arrays
 
-| Revised Status          | Problem Details                                                              | Description                                                                              |
-| ----------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| <ul><li> [ ] </li></ul> | [Valid Mountain Array][def10] `Easy`                                         |                                                                                          |
-| <ul><li> [ ] </li></ul> | [Rotate Array][def6] `Medium` `Two Pointers`                                 |                                                                                          |
-| <ul><li> [ ] </li></ul> | 💎 [Product of Array Except Itself][def5] `Medium` `Prefix Sum` `Suffix Sum` |                                                                                          |
-| <ul><li> [ ] </li></ul> | [Minimum Size Subarray Sum][def4] `Medium` `Two Pointers` `Sliding Window`   |                                                                                          |
-| <ul><li> [ ] </li></ul> | [LC 349. Intersection of Two Arrays][def3] `Easy`                            |                                                                                          |
-| <ul><li> [ ] </li></ul> | [Check If arrays is sorted & Rotated][def] `Easy`                            |                                                                                          |
-| <ul><li> [ ] </li></ul> | [Remove Duplicates From Sorted Array][def2] `Easy`                           |                                                                                          |
-| <ul><li> [ ] </li></ul> | 💎 [Move Zeroes][move_zeros] `Easy`                                          |                                                                                          |
-| <ul><li> [ ] </li></ul> | 🧬 [Majority Element - Moore's Voting Algorithm][def12] `Easy`               |                                                                                          |
-| <ul><li> [ ] </li></ul> | 💎 [Number of Arithmetic Triplets][def18] `Easy`                             |                                                                                          |
-| <ul><li> [ ] </li></ul> | 💎 [Remove Duplicates From Sorted Array II][def20] `Medium`                  |                                                                                          |
-| <ul><li> [ ] </li></ul> | 💎💎 [ 442. Find all Duplicates in an Array][def49] `Medium`                 |                                                                                          |
-| <ul><li> [ ] </li></ul> | 💎 [41. First Missing Positive][def55] `Hard`                                |                                                                                          |
-| <ul><li> [ ] </li></ul> | 💎 [2028. Find missing observations][def84] `Medium`                         | Nice Math Problem. It's all about dividing x into n parts. Each part ranges from 1 to 6. |
+| Problem Details                                                              | Description                                                                                                                                          |
+| ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Valid Mountain Array][def10] `Easy`                                         |                                                                                                                                                      |
+| [Rotate Array][def6] `Medium` `Two Pointers`                                 |                                                                                                                                                      |
+| 💎 [Product of Array Except Itself][def5] `Medium` `Prefix Sum` `Suffix Sum` |                                                                                                                                                      |
+| [Minimum Size Subarray Sum][def4] `Medium` `Two Pointers` `Sliding Window`   |                                                                                                                                                      |
+| [LC 349. Intersection of Two Arrays][def3] `Easy`                            |                                                                                                                                                      |
+| [Check If arrays is sorted & Rotated][def] `Easy`                            |                                                                                                                                                      |
+| [Remove Duplicates From Sorted Array][def2] `Easy`                           |                                                                                                                                                      |
+| 💎 [Move Zeroes][move_zeros] `Easy`                                          |                                                                                                                                                      |
+| 🧬 [Majority Element - Moore's Voting Algorithm][def12] `Easy`               |                                                                                                                                                      |
+| 💎 [Number of Arithmetic Triplets][def18] `Easy`                             |                                                                                                                                                      |
+| 💎 [Remove Duplicates From Sorted Array II][def20] `Medium`                  |                                                                                                                                                      |
+| 💎💎 [ 442. Find all Duplicates in an Array][def49] `Medium`                 |                                                                                                                                                      |
+| 💎 [41. First Missing Positive][def55] `Hard`                                |                                                                                                                                                      |
+| 💎 [2028. Find missing observations][def84] `Medium`                         | Nice Math Problem. It's all about dividing `missingRollSum` into n parts. Each roll min val will be `missingRollSum/n` and consider quotient as well |
 
 <!-- 2D Arrays  -->
 
@@ -75,6 +75,7 @@
 | [796. Rotate String - Find if s can become g after some rotations][def56] `Easy` | **BruteForce:** return (s+s).contains(g). **Optimal:** Get the starting index (s.char(i) == g.charAt(i)) and check if the strings are equal. Use (i%len) if pointers goes out of index.                   |
 | [Reverse words in a String][def58] `Medium`                                      |                                                                                                                                                                                                           |
 | [💎💎 14. Longest Common Prefix][def90]                                          | **BruteForce:** find the minlen of all string and check the each char of each string until minlen. **Optimal:** sort the given list of strings. find the max common prefix len for first and last strings |
+| [💎 Generate All Substrings, Subsequences, Permutations of String ][def101]      |                                                                                                                                                                                                           |
 
 <!-- Binary Search  -->
 
@@ -111,6 +112,12 @@
 | <ul><li> [ ] </li></ul> | [💎 88 Merge Sorted Array][def48] `Medium`               |                                        |
 | <ul><li> [ ] </li></ul> | [💎 Duplicate Zeros][def87] [code][def89]                | use extra array to generate the result |
 
+### Sliding Window
+
+| Problem Details                         | Description                                                                                                            |
+| --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| [209. Minimum Size Subarray Sum][def99] | Keep on calculating the sum. and check if sum >= target then decrease the windown size from left and update min length |
+
 <!-- Recursion  -->
 
 ### Recursion
@@ -132,9 +139,10 @@
 
 ### Stack
 
-| Solved                  | Problem Details                                                                                | Description                                                                                                     |
-| ----------------------- | ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| <ul><li> [ ] </li></ul> | [💎 Implement Stack Operations - Push, Pop, Peek, Increment(uptoIndex, incrementValue)][def35] | Implement the given stack operations in O(1) Time Complexity. Especially INC operation is bit interesting here. |
+| Problem Details                                                                                | Description                                                                                                     |
+| ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| [💎 Implement Stack Operations - Push, Pop, Peek, Increment(uptoIndex, incrementValue)][def35] | Implement the given stack operations in O(1) Time Complexity. Especially INC operation is bit interesting here. |
+| [2696. Minimum String Length After Removing Substrings][def100]                                | Pretty good problem to get started with Stack Data structure.                                                   |
 
 <!-- Dynamic Programming  -->
 
@@ -308,3 +316,6 @@ Problems that can be solved using Bucket sort technique
 [def96]: LeetCode/Sorting/MaximizeTheTotalHeightOfUniqueTowers
 [def97]: LeetCode/HashTable/CheckIfArrayPairsAreDivisibleByK
 [def98]: https://leetcode.com/problems/minimum-moves-to-equal-array-elements/description/
+[def99]: LeetCode/Arrays/209MinimumSizeSubarraySum
+[def100]: LeetCode/Stack/2696
+[def101]: DataStructures/Strings/substring_subsequence_permutations.go

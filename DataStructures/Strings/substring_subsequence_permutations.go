@@ -81,12 +81,3 @@ func printAllSubStrings2(s string) {
 		}
 	}
 }
-
-// for length := 1; length <= len; length++ {
-// 	for i := 0; i < len-length; i++ {
-// 		for j := i; j < i+length; j++ {
-// 			fmt.Printf("%c", s[j])
-// 		}
-// 		fmt.Println()
-// 	}
-// }
