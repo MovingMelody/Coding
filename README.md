@@ -114,9 +114,10 @@
 
 ### Sliding Window
 
-| Problem Details                         | Description                                                                                                            |
-| --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| [209. Minimum Size Subarray Sum][def99] | Keep on calculating the sum. and check if sum >= target then decrease the windown size from left and update min length |
+| Problem Details                                                       | Description                                                                                                            |
+| --------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| [209. Minimum Size Subarray Sum][def99]                               | Keep on calculating the sum. and check if sum >= target then decrease the windown size from left and update min length |
+| [💎 1493. Longest Subarray of 1's After Deleting One Element][def102] | Maintain a sliding window where there is at most one zero in it.                                                       |
 
 <!-- Recursion  -->
 
@@ -319,3 +320,4 @@ Problems that can be solved using Bucket sort technique
 [def99]: LeetCode/Arrays/209MinimumSizeSubarraySum
 [def100]: LeetCode/Stack/2696
 [def101]: DataStructures/Strings/substring_subsequence_permutations.go
+[def102]: LeetCode/TwoPointers/LongestSubarrayof1sAfterRemovingOne
