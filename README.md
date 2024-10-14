@@ -145,6 +145,14 @@
 | [💎 Implement Stack Operations - Push, Pop, Peek, Increment(uptoIndex, incrementValue)][def35] | Implement the given stack operations in O(1) Time Complexity. Especially INC operation is bit interesting here. |
 | [2696. Minimum String Length After Removing Substrings][def100]                                | Pretty good problem to get started with Stack Data structure.                                                   |
 
+<!-- Heap/PriorityQueue  -->
+
+### Heap/PriorityQueue
+
+| Problem Details                                           | Description                                  |
+| --------------------------------------------------------- | -------------------------------------------- |
+| [2530. Maximal Score After Applying K Operations][def103] | pretty good problem to get started with Heap |
+
 <!-- Dynamic Programming  -->
 
 ### Dynamic Programming
@@ -321,3 +329,4 @@ Problems that can be solved using Bucket sort technique
 [def100]: LeetCode/Stack/2696
 [def101]: DataStructures/Strings/substring_subsequence_permutations.go
 [def102]: LeetCode/TwoPointers/LongestSubarrayof1sAfterRemovingOne
+[def103]: LeetCode/Heaps/LC2530
