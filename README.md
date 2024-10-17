@@ -116,8 +116,16 @@
 
 | Problem Details                                                       | Description                                                                                                            |
 | --------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| [209. Minimum Size Subarray Sum][def99]                               | Keep on calculating the sum. and check if sum >= target then decrease the windown size from left and update min length |
+| [💎 209. Minimum Size Subarray Sum][def99]                            | Keep on calculating the sum. and check if sum >= target then decrease the windown size from left and update min length |
 | [💎 1493. Longest Subarray of 1's After Deleting One Element][def102] | Maintain a sliding window where there is at most one zero in it.                                                       |
+
+<!-- Prefix Sum & Suffix Sum  -->
+
+### Prefix Sum & Suffix Sum
+
+| Problem Details                                              | Description                                                                                                                                                                                                     |
+| ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [💎 GFG: Longest Sub-Array with Sum K (+ve and -ve)][def104] | This problem looks like a **sliding window** problem but it can't be solved using sliding window approach because array contains -ve & +ve numbers. So we need to use **HashMap** and store the prefixsum,index |
 
 <!-- Recursion  -->
 
@@ -330,3 +338,4 @@ Problems that can be solved using Bucket sort technique
 [def101]: DataStructures/Strings/substring_subsequence_permutations.go
 [def102]: LeetCode/TwoPointers/LongestSubarrayof1sAfterRemovingOne
 [def103]: LeetCode/Heaps/LC2530
+[def104]: LeetCode/HashTable/LongestSubarrayWithSumK
