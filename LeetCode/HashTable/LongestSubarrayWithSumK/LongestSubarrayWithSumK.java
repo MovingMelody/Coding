@@ -10,8 +10,10 @@ import java.util.HashMap;
 
 class LongestSubarrayWithSumK {
     public static void main(String[] args) {
-        int[] arr = { -13, 0, 6, 15, 16, 2, 15, -12, 17, -16, 0, -3, 19, -3, 2, -9, -6 };
-        int target = 15;
+        // int[] arr = { -13, 0, 6, 15, 16, 2, 15, -12, 17, -16, 0, -3, 19, -3, 2, -9,
+        // -6 };
+        int[] arr = { 1, -1, 2, 3, 2, -1, 3, -2, 1 };
+        int target = 6;
         int res = lenOfLongSubarr(arr, arr.length, target);
         System.out.println("Longest subarray with target: " + target + " is: " + res);
     }
