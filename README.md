@@ -114,10 +114,11 @@
 
 ### Sliding Window
 
-| Problem Details                                                       | Description                                                                                                            |
-| --------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| [💎 209. Minimum Size Subarray Sum][def99]                            | Keep on calculating the sum. and check if sum >= target then decrease the windown size from left and update min length |
-| [💎 1493. Longest Subarray of 1's After Deleting One Element][def102] | Maintain a sliding window where there is at most one zero in it.                                                       |
+| Problem Details                                                       | Description                                                                                                                                                                                                                                                                                                 |
+| --------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [💎 209. Minimum Size Subarray Sum][def99]                            | Keep on calculating the sum. and check if sum >= target then decrease the windown size from left and update min length                                                                                                                                                                                      |
+| [💎 1493. Longest Subarray of 1's After Deleting One Element][def102] | Maintain a sliding window where there is at most one zero in it.                                                                                                                                                                                                                                            |
+| [1423. Maximum Points You Can Obtain from Cards][def105]              | **With Extra Space(prefix sum):** Calculate total sum of array now maintain the subarray of len n-k and remove it's sum from total sum. **Constant Window Optimal:** Calculate the first k elements sum(first window) now subtract one element from left and add one element from right to that window sum. |
 
 <!-- Prefix Sum & Suffix Sum  -->
 
@@ -339,3 +340,4 @@ Problems that can be solved using Bucket sort technique
 [def102]: LeetCode/TwoPointers/LongestSubarrayof1sAfterRemovingOne
 [def103]: LeetCode/Heaps/LC2530
 [def104]: LeetCode/HashTable/LongestSubarrayWithSumK
+[def105]: LeetCode/TwoPointers/LC1423
