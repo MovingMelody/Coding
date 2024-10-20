@@ -120,6 +120,7 @@
 | [💎 1493. Longest Subarray of 1's After Deleting One Element][def102] | Maintain a sliding window where there is at most one zero in it.                                                                                                                                                                                                                                            |
 | [1423. Maximum Points You Can Obtain from Cards][def105]              | **With Extra Space(prefix sum):** Calculate total sum of array now maintain the subarray of len n-k and remove it's sum from total sum. **Constant Window Optimal:** Calculate the first k elements sum(first window) now subtract one element from left and add one element from right to that window sum. |
 | [3. Longest substring without repeating characters][def106]           | Use hashmap and keep track of each char last appeared index. if the repeat is found then move the window's left pointer                                                                                                                                                                                     |
+| [1004. Max Consecutive Ones III][def107]                              | keep only atmost k zeros in a window. once zeros count exceeds k. then shrink the windowLeftIndex until one zero is removed from left.                                                                                                                                                                      |
 
 <!-- Prefix Sum & Suffix Sum  -->
 
@@ -343,3 +344,4 @@ Problems that can be solved using Bucket sort technique
 [def104]: LeetCode/HashTable/LongestSubarrayWithSumK
 [def105]: LeetCode/TwoPointers/LC1423
 [def106]: LeetCode/TwoPointers/LC3
+[def107]: LeetCode/TwoPointers/LC1004
