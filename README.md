@@ -112,6 +112,8 @@
 | <ul><li> [ ] </li></ul> | [💎 88 Merge Sorted Array][def48] `Medium`               |                                        |
 | <ul><li> [ ] </li></ul> | [💎 Duplicate Zeros][def87] [code][def89]                | use extra array to generate the result |
 
+<!-- Sliding Window  -->
+
 ### Sliding Window
 
 | Problem Details                                                       | Description                                                                                                                                                                                                                                                                                                 |
@@ -123,6 +125,7 @@
 | [1004. Max Consecutive Ones III][def107]                              | Keep only atmost k zeros in a window. once zeros count exceeds k. then shrink the windowLeftIndex until one zero is removed from left.                                                                                                                                                                      |
 | [904. Fruit Into Baskets][def109]                                     | since we can pick only 2 types of fruits, maintain a hashmap of fruti frequencies. when map size > 2 shrink the starting point(window left index) until map size becomes 2(when the freq of any fruit reaches 0 then remove it from hashmap)                                                                |
 | [Longest Substring With At Most K Distinct Characters][def108]        | Same as **Fruit Into Baskets** problem                                                                                                                                                                                                                                                                      |
+| [2461. Maximum Sum of Distinct Subarrays With Length K][def110]       | Fixed window. Maintain a window of size k and keep track of distinct elements using a hashmap, if distinct elements == k then consider that subarray sum                                                                                                                                                    |
 
 <!-- Prefix Sum & Suffix Sum  -->
 
@@ -349,3 +352,4 @@ Problems that can be solved using Bucket sort technique
 [def107]: LeetCode/TwoPointers/LC1004
 [def108]: https://takeuforward.org/plus/data-structures-and-algorithm/sliding-window-and-2-pointer/longest-and-smallest-window-problems/longest-substring-with-at-most-k-distinct-characters
 [def109]: LeetCode/TwoPointers/LC904
+[def110]: LeetCode/TwoPointers/MaximumSumOfDistinctSubarraysWithLengthK
