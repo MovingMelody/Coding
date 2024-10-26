@@ -7,7 +7,6 @@ package main
 
 import (
 	"fmt"
-	"math"
 )
 
 func main() {
@@ -18,31 +17,17 @@ func main() {
 
 // nums[i] is either 0 or 1
 func longestSubarray(nums []int) int {
-	longest := math.MinInt
-	lastZeroIndex := -1
-	lp := 0
-	for i, x := range nums {
-		// [1,1,0,1] for such cases
-		if x == 1 && i == len(nums)-1 {
-			if i-lp > longest {
-				longest = i - lp
+	lastZero, leftPointer, longest := -1, 0, 0
+	for i := 0; i < len(nums); i++ {
+		if nums[i] == 0 {
+			if lastZero != -1 {
+				leftPointer = lastZero + 1
 			}
+			lastZero = i
 		}
-
-		// every time zero appears calculate the sub array length from last pointer
-		if x == 0 {
-			if lastZeroIndex != -1 {
-				newLen := i - lp - 1
-				if newLen > longest {
-					longest = newLen
-				}
-				lp = lastZeroIndex + 1
-			}
-			lastZeroIndex = i
+		if i-leftPointer > longest {
+			longest = i - leftPointer
 		}
-	}
-	if longest == math.MinInt {
-		return len(nums) - 1
 	}
 	return longest
 }

@@ -37,6 +37,8 @@ func checkPerfectNumber(num int) bool {
 
 <!-- Generate all the prefixes of a number -->
 
+### Print all the prefixes of Number
+
 ```go
 /*
 
