@@ -8,7 +8,7 @@
 public class FloorOfNumber {
     public static void main(String[] args) {
         int[] nums = new int[] { 2, 3, 5, 9, 14, 16, 18 };
-        int target = 2;
+        int target = 6;
         int index = floorOfNumber(nums, target);
         if (index != -1) {
             System.out.println("Floor of target is " + nums[index]);
@@ -27,7 +27,7 @@ public class FloorOfNumber {
 
             // if mid is >= target our floor exists from (start to mid -1)
             // if we remove = then it returns target only if it exists in array
-            if (nums[mid] >= target) {
+            if (nums[mid] > target) {
                 end = mid - 1;
             } else {
                 start = mid + 1;

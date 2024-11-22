@@ -8,24 +8,26 @@
 class CeilOfNumber {
     public static void main(String[] args) {
         int[] nums = new int[] { 2, 3, 5, 9, 14, 16, 18 };
-        int target = 18;
+        int target = -1;
         int index = ceilOfNumber(nums, target);
         if (index != -1) {
             System.out.println("Ceil of target is " + nums[index]);
+        } else {
+            System.out.println("given target is greater than all elements in array, so ceil can't be found");
         }
     }
 
     public static int ceilOfNumber(int[] nums, int target) {
         int length = nums.length;
-        if (nums[length - 1] <= target)
+        if (nums[length - 1] < target)
             return -1;
         int start = 0, end = nums.length - 1;
         while (start <= end) {
             int mid = start + (end - start) / 2;
-            
+
             // even if mid is equal to target we still have to find the ceil of target
             // so equals sign is added here in the condition
-            if (nums[mid] <= target) {
+            if (nums[mid] < target) {
                 start = mid + 1;
             } else {
                 end = mid - 1;

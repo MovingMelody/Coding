@@ -5,31 +5,25 @@
 */
 package LC2302;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class CountSubarraysWithScoreLessThanK {
-
-    public int subarraysWithKDistinct(int[] nums, int k) {
-        return subarraysWithLessOrEqualKDistinct(nums, k) - subarraysWithLessOrEqualKDistinct(nums, k - 1);
+    public static void main(String[] args) {
+        System.out.println(countSubarrays(new int[] { 2, 1, 4, 3, 5 }, 10));
     }
 
-    public int subarraysWithLessOrEqualKDistinct(int[] nums, int k) {
-        int count = 0, leftPointer = 0;
-        Map<Integer, Integer> map = new HashMap<>();
+    public static long countSubarrays(int[] nums, long k) {
+        long count = 0, sum = 0;
+        int leftPointer = 0;
         for (int i = 0; i < nums.length; i++) {
-            map.put(nums[i], map.getOrDefault(nums[i], 0) + 1);
-            while (map.size() > k) {
-                int leftMost = nums[leftPointer++];
-                int leftMostFreq = map.get(leftMost) - 1;
-                if (leftMostFreq == 0) {
-                    map.remove(leftMost);
-                } else {
-                    map.replace(leftMost, leftMostFreq);
-                }
+            sum += nums[i];
+            long score = sum * (i - leftPointer + 1);
+            while (score >= k) {
+                sum -= nums[leftPointer++];
+                score = sum * (i - leftPointer + 1);
             }
             count += i - leftPointer + 1;
+            System.out.println(count);
         }
         return count;
     }
+
 }

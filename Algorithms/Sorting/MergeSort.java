@@ -6,6 +6,9 @@
 
 import java.util.Arrays;
 
+/* 
+ *  Time Complexity O(n * logn) -> logn steps and n comparisons in each step
+ */
 public class MergeSort {
     public static void main(String[] args) {
         // int[] array = { 999, 1, 3, 2, 5, 777, 4, 6, 8, 0, -98 };
@@ -33,13 +36,17 @@ public class MergeSort {
          * into two halves
          */
         merge(nums, start, mid, end);
+        // when this merge method is called for first time(final recursion call)
+        // start -> 0,mid -> 0,end -> 1
+        // so basically we are merging the first two elements first
     }
 
     private static void merge(int[] nums, int start, int mid, int end) {
+        System.out.println(start + " " + mid + " " + end);
         int leftSize = mid - start + 1;
         int rightSize = end - mid;
-        int[] sortedSubArray = new int[leftSize + rightSize];
-        // System.out.println("Left size: " + leftSize + " Right size: " + rightSize);
+        int[] sortedSubArray = new int[leftSize + rightSize]; // simply (end-start+1) can also be done to calculate the
+                                                              // size
         System.out.printf("Start: %d Mid: %d End: %d\n", start, mid, end);
 
         int left = start;
