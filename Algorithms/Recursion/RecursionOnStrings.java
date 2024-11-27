@@ -52,10 +52,15 @@ public class RecursionOnStrings {
         System.out.println("All subsequences of " + s + " :" + generatedSubsequences.toString());
 
         /*
-         * Generate all subsets of
+         * Generate all subsets of array using Iterative Approach
          */
         var allSubsets = generateAllSubsetsOfArray(new ArrayList<>(Arrays.asList(1, 2, 3)));
         System.out.println("All subsets of an array : " + allSubsets);
+
+        List<List<Integer>> subsetsOfArr = new ArrayList<>();
+        subsetsOfArrayRec(new ArrayList<>(), new ArrayList<>(Arrays.asList(1, 2, 3)), 0, subsetsOfArr);
+        System.out.println("All subsets of an array(Recursion) : " + subsetsOfArr);
+
         sc.close();
     }
 
@@ -170,6 +175,28 @@ public class RecursionOnStrings {
             }
         }
         return res;
+    }
+
+    /*
+     * Generate all subsets of array using recursion
+     * LC 78 Subsets https://leetcode.com/problems/subsets/description/
+     */
+    static void subsetsOfArrayRec(List<Integer> processed, List<Integer> given, int currIndex,
+            List<List<Integer>> res) {
+
+        if (currIndex == given.size()) {
+            res.add(new ArrayList<>(processed));
+            return;
+        }
+        // take first num
+        int num = given.get(currIndex);
+        processed.add(num);
+        subsetsOfArrayRec(processed, given, currIndex + 1, res);
+
+        // ignore first num
+        processed.removeLast();
+        subsetsOfArrayRec(processed, given, currIndex + 1, res);
+
     }
 
 }

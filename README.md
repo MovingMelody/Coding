@@ -167,7 +167,7 @@
 | [Number of Steps to Reduce a Number to Zero][def76]   |                                                                                                |
 | [💎 Print Triangle Patterns using Recursion][def75]   |                                                                                                |
 | [Bubble Sort & Selection Sort Using Recursion][def80] |                                                                                                |
-| [💎 Recursion on Strings][def81]                      | Remove a specific char, Subsets, Subsequences, Generate all subsets of array                   |
+| [🌻💎 Recursion on Strings][def81]                    | Remove a specific char, **Subsets**, **Subsequences**, Generate all subsets of an array/string |
 | [💎 231. Is Power of 2][def83] `Easy`                 | Call the fn recursively until number becomes 1 or any other odd number. If 1 return true.      |
 
 <!-- Stack  -->
