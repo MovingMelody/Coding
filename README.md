@@ -171,6 +171,7 @@
 | [💎 231. Is Power of 2][def83] `Easy`                                       | Call the fn recursively until number becomes 1 or any other odd number. If 1 return true.                                                                                                                                                                                                                                                      |
 | [78. Subsets][def128]                                                       | Can be solved in 3 ways: **Iterative Approach:** Loop through given array of nums and add each num into existing subsets(Add empty subset initially), **Recursive Solution:** Follow processed, unprocessed approach., **Bit Manipulation**                                                                                                    |
 | [1498. Number of Subsequences That Satisfy the Given Sum Condition][def129] | **Brute Force:** Generate all the subsequences and count the ones which satisfy the condition, But TLE. **Optimal Solution:** Since we don't have to return the actual subsequences but only the count, we can sort the array to find the min and max easily and use the two pointers approach to calculate the subsequences using formula 2^n |
+| [39. Combination Sum][def130]                                               | Use typical processed/unprocessed approach but stay on the same index when a element is picked(basically left rec call - first one) since we can pick the same element any number of times. Base conditions are very important: stop when target == 0, target < 0, index == given.length.                                                      |
 
 <!-- Stack  -->
 
@@ -393,3 +394,4 @@ Problems that can be solved using Bucket sort technique
 [def127]: LeetCode/Strings/LC451
 [def128]: https://leetcode.com/problems/subsets/description/
 [def129]: LeetCode/RecursionBacktracking/LC1498
+[def130]: LeetCode/RecursionBacktracking/CombinationSum
