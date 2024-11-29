@@ -58,8 +58,13 @@ public class RecursionOnStrings {
         System.out.println("All subsets of an array : " + allSubsets);
 
         List<List<Integer>> subsetsOfArr = new ArrayList<>();
-        subsetsOfArrayRec(new ArrayList<>(), new ArrayList<>(Arrays.asList(1, 2, 3)), 0, subsetsOfArr);
+        subsetsOfArrayRec(new ArrayList<>(), new ArrayList<>(Arrays.asList(3, 1, 2)), 0, subsetsOfArr);
         System.out.println("All subsets of an array(Recursion) : " + subsetsOfArr);
+
+        subsetsOfArr.clear();
+        subsetsOfArr = subsetsOfArrayRecWithoutPassingRes(new ArrayList<>(), new ArrayList<>(Arrays.asList(1, 2, 3)),
+                0);
+        System.out.println("All subsets of an array(Recursion - without passing res in params) : " + subsetsOfArr);
 
         sc.close();
     }
@@ -197,6 +202,30 @@ public class RecursionOnStrings {
         processed.removeLast();
         subsetsOfArrayRec(processed, given, currIndex + 1, res);
 
+    }
+
+    /*
+     * 😎 generate all subsets without passing result in parameters
+     */
+    static List<List<Integer>> subsetsOfArrayRecWithoutPassingRes(List<Integer> processed, List<Integer> given,
+            int currIndex) {
+
+        if (currIndex == given.size()) {
+            List<List<Integer>> res = new ArrayList<>();
+            res.add(new ArrayList<>(processed));
+            return res;
+        }
+        // take first num
+        int num = given.get(currIndex);
+        processed.add(num);
+        List<List<Integer>> leftSubsets = subsetsOfArrayRecWithoutPassingRes(processed, given, currIndex + 1);
+
+        // ignore first num
+        processed.removeLast();
+        List<List<Integer>> rightSubsets = subsetsOfArrayRecWithoutPassingRes(processed, given, currIndex + 1);
+
+        rightSubsets.addAll(leftSubsets);
+        return rightSubsets;
     }
 
 }
