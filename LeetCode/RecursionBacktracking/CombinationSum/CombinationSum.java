@@ -19,7 +19,8 @@ public class CombinationSum {
             List<List<Integer>> res) {
 
         if (target == 0) {
-            res.add(new ArrayList<>(processed));
+            res.add(new ArrayList<>(processed)); // in worst case add will take O(n) time when a new list has to be
+                                                 // created, so TC -> 2^t * n
             return;
         }
         if (index == given.length || target < 0) {
