@@ -15,7 +15,11 @@ public class CombinationSumII {
         generateCombinations(new ArrayList<>(), candidates, target, 0, res);
         return res;
     }
-    
+
+    /*
+     * Backtracking approach
+     * Time Complexity - 2 ^ n * k
+     */
     public static void generateCombinations(List<Integer> processed, int[] given, int target, int index,
             List<List<Integer>> res) {
 
@@ -28,9 +32,14 @@ public class CombinationSumII {
         }
         // starting from index 0 we have 5 options to pick the first element, so pick
         // only unique ones as a first element
-        for (int i = index; i < given.length; i++) {
-            if (i > index && given[i] == given[i - 1])
+        for (int i = index; i < given.length; i++) { // check for all possibilites
+
+            if (i > index && given[i] == given[i - 1]) {
+                // curr num should not be same as prev(avoiding duplicates), we
+                // don't have to check condition when picking first number for
+                // nth position
                 continue;
+            }
             int num = given[i];
             processed.add(num);
             generateCombinations(processed, given, target - num, i + 1, res);

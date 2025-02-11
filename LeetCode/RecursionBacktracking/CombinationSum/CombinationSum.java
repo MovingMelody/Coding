@@ -5,7 +5,12 @@ import java.util.List;
 
 public class CombinationSum {
     public static void main(String[] args) {
-        System.out.println(combinationSum(new int[] { 2, 3, 6, 7 }, 7));
+        System.out.println("Recursive Solution: " + combinationSum(new int[] { 2, 3, 6, 7 }, 7));
+
+        // backtracking approach
+        List<List<Integer>> res = new ArrayList<>();
+        backtrack(new ArrayList<>(), new int[] { 2, 3, 6, 7 }, 0, 7, res);
+        System.out.println("Backtracking Solution: " + res);
     }
 
     public static List<List<Integer>> combinationSum(int[] candidates, int target) {
@@ -34,5 +39,26 @@ public class CombinationSum {
 
         processed.removeLast();
         getCombinations(processed, given, target, index + 1, res);
+    }
+
+    /*
+     * Backtracking solution
+     * TC - O(2 ^ n)
+     */
+    public static void backtrack(List<Integer> processed, int[] given, int index, int target,
+            List<List<Integer>> res) {
+        if (target == 0) {
+            res.add(new ArrayList<>(processed));
+            return;
+        }
+
+        if (target < 0)
+            return;
+
+        for (int i = index; i < given.length; i++) {
+            processed.add(given[i]);
+            backtrack(processed, given, i, target - given[i], res);
+            processed.removeLast();
+        }
     }
 }

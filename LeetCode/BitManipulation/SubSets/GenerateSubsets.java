@@ -35,7 +35,7 @@ public class GenerateSubsets {
 
         System.out.println("Total Subsets : " + totalSubsets);
 
-        for (int set = 1; set <= totalSubsets; set++) {
+        for (int set = 0; set < totalSubsets; set++) {
             List<Integer> eachSubset = new ArrayList<>();
             for (int i = 0; i < nums.length; i++) {
                 if ((set & (1 << i)) != 0)

@@ -163,6 +163,14 @@ public class RecursionOnStrings {
     }
 
     /*
+     * ▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
+     * ▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
+     * ▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂ Array Subsets ▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
+     * ▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
+     * ▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
+     */
+
+    /*
      * Generate all subsets of an array using iterative approach
      */
     static List<List<Integer>> generateAllSubsetsOfArray(List<Integer> list) {
