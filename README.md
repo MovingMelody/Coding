@@ -79,6 +79,7 @@
 | [💎💎 14. Longest Common Prefix][def90]                                          | **BruteForce:** find the minlen of all string and check the each char of each string until minlen. **Optimal:** sort the given list of strings. find the max common prefix len for first and last strings |
 | [💎 Generate All Substrings, Subsequences, Permutations of String][def101]       |                                                                                                                                                                                                           |
 | [2259. Remove Digit From Number to Maximize Result][def139]                      | Analyze "5515", "5565" & "5456" numbers to get the solution(Digit = "5").(If there is no greater digit than given digit is present then remove the last occurence of digit in num from right to left)     |
+| [1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence][def144]     |                                                                                                                                                                                                           |
 
 <!-- Binary Search  -->
 
@@ -97,6 +98,7 @@
 | [2563. Count the Number of Fair Pairs][def123]                         | **Brute force:** Use a nested for loop O(n^2) and find the pairs. **Optimal:** Sort the array then fix each num in array and find the lower bound and upper bound for that number using binary search. Let's say given lower=3, upper=6 and nums =[0, 1, 4, 4, 5, 7] now when num is 1 then the other number should be atleast 2 (3-1) and max pair num should be 5 (6-1) |
 | [875. Koko Eating Bananas][def124]                                     | **Brute force:**Start with 1 banana per hour and then keep on increasing the per hour banana count by 1 until the totalHours <= h. Like a linear search - start from 1 to maxOfAllPiles. **Optimal:** Replace Linear Search with BS                                                                                                                                       |
 | [2064. Minimized Maximum of Products Distributed to Any Store][def126] | Similar to Koko Eating Bananas Problem                                                                                                                                                                                                                                                                                                                                    |
+| [3152. Special Array II][def146]                                       | First find out all the bad indexes and check if there's any bad index which lies in each given range.                                                                                                                                                                                                                                                                     |
 
 <!-- Sorting -->
 
@@ -249,6 +251,7 @@
 | [2425. Bitwise XOR of All Pairings][def137]                   | Check how many times each number is repeating. **x ^ x = 0**; **x ^ x ^ x = x**                                                                                                                                                                         |
 | [3011. Find if Array Can Be Sorted][def138]                   | Divide the array into segments of equal set bits, max of prev segment should be less than min of current segment.                                                                                                                                       |
 | [190. Reverse Bits][def140]                                   | check the each bit in a given 32 bit integer and set the bit in result. If 1st bit in `n` is a set then the last bit in result should be set                                                                                                            |
+| [3151. Special Array I][def145]                               | Compare the parities of every adjacent pairs and check if they are diff or not, if same return false. use AND and xOR operator                                                                                                                          |
 
 <!-- Cyclic Sort  -->
 
@@ -421,3 +424,6 @@ Problems that can be solved using Bucket sort technique
 [def141]: https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/description/
 [def142]: LeetCode/Arrays/LC229
 [def143]: LeetCode/Stack/LC1910
+[def144]: https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/description/
+[def145]: https://leetcode.com/problems/special-array-i/description/?envType=daily-question&envId=2025-02-01
+[def146]: LeetCode/Arrays/SpecialArrayII
